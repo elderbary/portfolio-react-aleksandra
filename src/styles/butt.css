@@ -6,7 +6,26 @@
 .button {
     border: 1px solid #C70909;
     background: none;
-    padding: 10px 20px;
+    margin-top: 16px;
+    padding: 7px 20px;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
+    color: #C70909;
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: #C70909;
+    border-radius: 50% 50% 0 0;
+    bottom: 0;
+}
+
+.button:hover {
+    color: #F63F3F;
+    border: 1px solid #F63F3F;
 }
