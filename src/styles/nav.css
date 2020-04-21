@@ -1,0 +1,30 @@
+nav.main {
+  margin: 0 auto;
+  margin-top: 360px;
+}
+
+.main ul {
+  list-style-type: none;
+}
+
+nav.main a {
+  display: block;
+  text-decoration: none;
+  color: #707070;
+  text-transform: uppercase;
+  padding: 4px;
+  font-size: 16px;
+  text-align: center;
+  transition: 0.2s;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+nav.main a:hover {
+  color: black;
+}
+
+nav.main a.active {
+  color: black;
+}

@@ -1,0 +1,12 @@
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button {
+    border: 1px solid #C70909;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
