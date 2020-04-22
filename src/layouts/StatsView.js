@@ -5,7 +5,7 @@ import '../styles/stats.css';
 const StatsView = () => {
     return (
 
-        <div className="flex-container-text1">
+        <div className="flex-container-text2">
             <h2>12,456
             </h2>
             <p>

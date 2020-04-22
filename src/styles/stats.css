@@ -3,20 +3,42 @@
     flex-direction: column;
     z-index: 1;
     justify-items: end;
-    margin-left: 60px;
+    margin-left: 120px;
+    padding: 0px 0px 0px 0px;
+}
+
+.flex-container-text2 {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    justify-items: end;
+    margin-left: 50px;
     padding: 0px 0px 0px 0px;
 }
 
 
 .flex-container-text1 h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 29px;
     text-align: left;
 }
 
 .flex-container-text1 p {
     font-family: TeXGyreTermes;
-    font-size: 22px;
+    font-size: 21px;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.flex-container-text2 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 29px;
+    text-align: left;
+}
+
+.flex-container-text2 p {
+    font-family: TeXGyreTermes;
+    font-size: 21px;
     text-align: left;
     margin-top: -10px;
 }
