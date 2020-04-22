@@ -1,0 +1,5 @@
+.flex-container-text1 {
+    display: flex;
+    justify-items: end;
+    flex-direction: column-reverse;
+}
