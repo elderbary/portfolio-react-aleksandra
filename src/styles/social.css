@@ -1,8 +1,10 @@
-.socialpic {
-    margin-top: 780px;
+.flex-container {
+    display: flex;
+    justify-items: start;
+    flex-direction: column-reverse;
 }
 
 
-.socialpic ul {
+.flex-container ul {
     list-style-type: none;
 }
