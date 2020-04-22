@@ -8,7 +8,7 @@ import Text from './Text';
 import Picture from './Picture';
 import Butt from './Butt';
 import StatsWords from './StatsWords';
-import StatsWords from './StatsWords';
+import StatsView from './StatsView';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
