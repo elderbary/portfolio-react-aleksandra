@@ -1,5 +1,7 @@
 .flex-container-text1 {
     display: flex;
-    justify-items: end;
+    justify-items: left;
     flex-direction: column-reverse;
+    text-align: center;
+    z-index: 1;
 }
