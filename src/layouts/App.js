@@ -7,7 +7,9 @@ import Social from './Social';
 import Text from './Text';
 import Picture from './Picture';
 import Butt from './Butt';
-import Stats from './Stats';
+import StatsWords from './StatsWords';
+import StatsWords from './StatsWords';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {

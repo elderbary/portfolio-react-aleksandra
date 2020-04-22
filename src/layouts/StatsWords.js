@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/stats.css';
 
-const Stats = () => {
+const StatsWords = () => {
     return (
 
         <div className="flex-container-text1">
@@ -17,4 +17,4 @@ const Stats = () => {
     )
 }
 
-export default Stats; 
+export default StatsWords; 
