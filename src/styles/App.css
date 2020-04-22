@@ -26,8 +26,14 @@
 .grid-item-2 {
   background-color: teal;
   grid-column: 2/7;
-  grid-row: 1/10;
+  grid-row: 1/11;
 
+}
+
+.grid-item-stats {
+  background-color: teal;
+  grid-column: 7/12;
+  grid-row: 11/12;
 }
 
 .grid-item-3 {
