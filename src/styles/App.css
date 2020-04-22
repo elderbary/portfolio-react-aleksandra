@@ -36,6 +36,12 @@
   grid-row: 11/12;
 }
 
+.grid-item-stats-2 {
+  background-color: teal;
+  grid-column: 3/3;
+  grid-row: 11/12;
+}
+
 .grid-item-3 {
   background-color: teal;
   grid-column: 7/12;
