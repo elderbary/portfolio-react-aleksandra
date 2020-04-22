@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/App.css';
+import '../styles/app.css';
 import { BrowserRouter as Router } from 'react-router-dom'
 import Navigation from './Navigation';
 import Toggle from './Toggle';
