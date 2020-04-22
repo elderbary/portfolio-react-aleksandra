@@ -6,10 +6,10 @@ const StatsView = () => {
     return (
 
         <div className="flex-container-text1">
-            <h2>3453
+            <h2>12,456
             </h2>
             <p>
-                słów
+                wyświetleń
             </p>
 
         </div>

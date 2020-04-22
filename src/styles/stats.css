@@ -3,4 +3,20 @@
     flex-direction: column;
     z-index: 1;
     justify-items: end;
+    margin-left: 60px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.flex-container-text1 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+.flex-container-text1 p {
+    font-family: TeXGyreTermes;
+    font-size: 22px;
+    text-align: left;
+    margin-top: -10px;
 }
