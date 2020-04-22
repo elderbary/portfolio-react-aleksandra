@@ -11,7 +11,9 @@ const Stats = () => {
             <p>
                 słów
             </p>
+
         </div>
+
     )
 }
 
