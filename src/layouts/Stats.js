@@ -1,10 +1,17 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/butt.css';
+import '../styles/stats.css';
 
 const Stats = () => {
     return (
-        <p>stats</p>
+
+        <div className="flex-container-text1">
+            <h2>3453
+            </h2>
+            <p>
+                słów
+            </p>
+        </div>
     )
 }
 
