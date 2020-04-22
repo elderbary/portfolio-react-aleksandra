@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/text.css';
-import { Nav, Navbar, NavDropdown, MenuItem, Tabs, ButtonToolbar, Button, Table, ButtonGroup, Row, Col, Grid, Panel, FormGroup, FormControl } from 'react-bootstrap';
 
 const Text = () => {
     return (

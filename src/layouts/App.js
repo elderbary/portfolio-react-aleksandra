@@ -9,8 +9,6 @@ import Picture from './Picture';
 import Butt from './Butt';
 import Stats from './Stats';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar, NavDropdown, MenuItem, Tabs, ButtonToolbar, Button, Table, ButtonGroup, Row, Col, Grid, Panel, FormGroup, FormControl, ListGroupItem } from 'react-bootstrap';
-
 
 class App extends Component {
   render() {

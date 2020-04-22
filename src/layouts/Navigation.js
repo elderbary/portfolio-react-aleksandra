@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/nav.css';
-import { Nav, Navbar, NavDropdown, MenuItem, Tabs, ButtonToolbar, Button, Table, ButtonGroup, Row, Col, Grid, Panel, FormGroup, FormControl } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const list = [
