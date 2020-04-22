@@ -22,8 +22,12 @@ class App extends Component {
             <div className="grid-item grid-item-2">
               {<Text />}
             </div>
-            <div className="grid-item grid-item-stats">
-              {<Stats />}
+            <div className="grid-item grid-item-stats-1">
+              {<StatsWords />}
+            </div>
+
+            <div className="grid-item grid-item-stats-2">
+              {<StatsView />}
             </div>
             <div className="grid-item grid-item-3">
               {<Picture />}
