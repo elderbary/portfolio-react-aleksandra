@@ -8,3 +8,7 @@
 .flex-container ul {
     list-style-type: none;
 }
+
+.flex-container li {
+    margin-top: 6px;
+}

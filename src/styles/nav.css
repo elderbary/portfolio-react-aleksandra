@@ -11,9 +11,9 @@ nav.main {
 nav.main a {
   display: block;
   text-decoration: none;
-  color: #707070;
+  color: #707070 !important;
   text-transform: uppercase;
-  padding: 4px;
+  padding: 6px;
   font-size: 21px;
   text-align: center;
   transition: 0.2s;
@@ -23,7 +23,7 @@ nav.main a {
 }
 
 nav.main a:hover {
-  color: black;
+  color: black !important;
 }
 
 nav.main a.active {
