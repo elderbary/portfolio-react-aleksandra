@@ -10,8 +10,6 @@ import Butt from './Butt';
 import StatsWords from './StatsWords';
 import StatsView from './StatsView';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 class App extends Component {
   render() {
     return (
