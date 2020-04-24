@@ -10,7 +10,7 @@ import Butt from './Butt';
 import StatsWords from './StatsWords';
 import StatsView from './StatsView';
 
-class Contact extends Component {
+class Home extends Component {
     render() {
         return (
             <Router>
@@ -24,16 +24,21 @@ class Contact extends Component {
                                 {<Text />}
                             </div>
                             <div className="grid-item grid-item-stats-1">
+                                {<StatsWords />}
                             </div>
+
                             <div className="grid-item grid-item-stats-2">
+                                {<StatsView />}
                             </div>
                             <div className="grid-item grid-item-3">
+                                {<Picture />}
                                 {<Social />}
                             </div>
                             <div className="grid-item grid-item-5">
                                 {<Navigation />}
                             </div>
                             <div className="grid-item grid-item-6">
+                                {<Butt />}
                             </div>
                         </div>
                     </div>
@@ -43,4 +48,4 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default Home;

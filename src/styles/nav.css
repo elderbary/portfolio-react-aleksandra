@@ -1,17 +1,16 @@
-nav.main {
+.main {
   margin: 0 auto;
   margin-top: 360px;
 }
 
 .main ul {
   list-style-type: none;
-  color: #707070;
 }
 
-nav.main a {
+.main a {
   display: block;
   text-decoration: none;
-  color: #707070 !important;
+  color: #707070;
   text-transform: uppercase;
   padding: 6px;
   font-size: 21px;
@@ -22,10 +21,10 @@ nav.main a {
 
 }
 
-nav.main a:hover {
-  color: black !important;
+.main a:hover {
+  color: black;
 }
 
-nav.main a.active {
+.main a.active {
   color: black;
 }

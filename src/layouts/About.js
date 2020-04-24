@@ -10,7 +10,7 @@ import Butt from './Butt';
 import StatsWords from './StatsWords';
 import StatsView from './StatsView';
 
-class App extends Component {
+class About extends Component {
     render() {
         return (
             <Router>
@@ -48,4 +48,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default About;
