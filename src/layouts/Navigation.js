@@ -1,30 +1,31 @@
 import React from 'react';
 import '../styles/nav.css';
-import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
 import App from './App';
 import About from './About';
 import CV from './CV';
 import Contact from './Contact';
 
+const list = [
+    { name: "portfolio", path: "/" },
+    { name: "o mnie", path: "./About" },
+    { name: "moje cv", path: "./CV" },
+    { name: "kontakt", path: "./Contact" },
+]
 
 const Navigation = () => {
-    <Router>
-        <div>
+
+    const menu = list.map(item => (
+        <li key={item.name}>
+            <NavLink to={item.path}>{item.name}</NavLink>
+        </li>
+    ))
+    return (
+        <nav className="main">
             <ul>
-                <li><NavLink to="/" exact activeStyle={{ color: 'black' }}>PORTFOLIO</Navlink></li>;
-                <li><NavLink to="/about" exact activeStyle={{ color: 'black' }}>O MNIE</Navlink></li>;
-                <li><NavLink to="/cv" exact activeStyle={{ color: 'black' }}>MOJE CV</Navlink></li>;
-                <li><NavLink to="/contact" exact activeStyle={{ color: 'black' }}>KONTAKT</Navlink></li>;
+                {menu}
             </ul>
-
-            <Route exact path="/" component={App} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/cv" component={CV} />
-            <Route exact path="/contact" component={Contact} />
-        </div>
-    </Router>
+        </nav>
+    )
 }
-ReactDOM.render(routing, document.getElementById('root'));
-
-
-https://www.javatpoint.com/react-router
+export default Navigation;
