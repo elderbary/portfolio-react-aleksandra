@@ -1,0 +1,78 @@
+.container {
+    position: relative;
+    min-width: 100%;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap: 1px;
+    padding: 1px;
+    height: 100vh;
+  }
+  
+  .grid-item {
+    display: flex;
+  }
+  
+  .grid-item-1 {
+    background-color: teal;
+    grid-row: 1/12;
+    grid-column: 1;
+  
+  }
+  
+  .grid-item-2 {
+    background-color: #fff;
+    grid-column: 2/7;
+    grid-row: 1/10;
+  
+  }
+  
+  .experience {
+    background-color:#fff;
+    grid-column: 3/3;
+    grid-row: 11/12;
+  }
+  
+  .clients {
+    background-color: #fff;
+    grid-column: 4/4;
+    grid-row: 11/12;
+  }
+
+  .articles {
+      background-color:#fff;
+      grid-column: 5/5;
+      grid-row: 11/12;
+  }
+
+  .words {
+    background-color: #fff;
+    grid-column: 6/6;
+    grid-row: 11/12;
+}
+  
+  .grid-item-3 {
+    background-color: #fff;
+    grid-column: 7/12;
+    grid-row: 1/12;
+  
+  }
+  
+  .nav {
+    background-color:#fff;
+    grid-column: 12/13;
+    grid-row: 1/12;
+  
+  }
+  
+  .button {
+    background-color: #fff;
+    grid-column: 1/13;
+    grid-row: 12/12;
+  
+  }
+  
+  

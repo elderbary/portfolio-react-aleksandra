@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/app.css';
+import '../styles/about.css';
 import { BrowserRouter as Router } from 'react-router-dom'
 import Navigation from './Navigation';
 import Toggle from './Toggle';
@@ -7,8 +7,10 @@ import Social from './Social';
 import Text from './Text';
 import Picture from './Picture';
 import Butt from './Butt';
-import StatsWords from './StatsWords';
-import StatsView from './StatsView';
+import StatsWordsCV from './StatsWordsCV';
+import StatsArticles from './StatsArticles';
+import StatsClients from './StatsClients';
+import StatsExp from './StatsExp';
 
 class About extends Component {
     render() {
@@ -23,12 +25,17 @@ class About extends Component {
                             <div className="grid-item grid-item-2">
                                 {<Text />}
                             </div>
-                            <div className="grid-item grid-item-stats-1">
-                                {<StatsWords />}
+                            <div className="grid-item experience">
+                                {<StatsExp />}
                             </div>
-
-                            <div className="grid-item grid-item-stats-2">
-                                {<StatsView />}
+                            <div className="grid-item clients">
+                                {<StatsClients />}
+                            </div>
+                            <div className="grid-item articles">
+                                {<StatsArticles />}
+                            </div>
+                            <div className="grid-item words">
+                                {<StatsWordsCV />}
                             </div>
                             <div className="grid-item grid-item-3">
                                 {<Picture />}

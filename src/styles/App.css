@@ -32,13 +32,13 @@
 
 .grid-item-stats-1 {
   background-color: #fff;
-  grid-column: 2/2;
+  grid-column: 3/3;
   grid-row: 11/12;
 }
 
 .grid-item-stats-2 {
   background-color:#fff;
-  grid-column: 3/3;
+  grid-column: 4/4;
   grid-row: 11/12;
 }
 
