@@ -24,7 +24,7 @@
   }
   
   .grid-item-2 {
-    background-color: #fff;
+    background-color:red ;
     grid-column: 2/7;
     grid-row: 1/10;
   
