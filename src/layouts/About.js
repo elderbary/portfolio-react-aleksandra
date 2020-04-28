@@ -11,6 +11,7 @@ import StatsWordsCV from './StatsWordsCV';
 import StatsArticles from './StatsArticles';
 import StatsClients from './StatsClients';
 import StatsExp from './StatsExp';
+import Stats from './Stats';
 
 class About extends Component {
     render() {
@@ -26,7 +27,7 @@ class About extends Component {
                                 {<Text />}
                             </div>
                             <div className="grid-item experience">
-                                {<StatsExp />}
+                                {<Stats upperText="test" bottomText="test" />}
                             </div>
                             <div className="grid-item clients">
                                 {<StatsClients />}
