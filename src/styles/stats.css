@@ -1,140 +1,139 @@
 .flex-container-text1 {
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    justify-items: end;
-    margin-left: -100px;
-    padding: 0px 0px 0px 0px;
-    margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  justify-items: end;
+  margin-left: -100px;
+  padding: 0px 0px 0px 0px;
+  margin-top: -60px;
 }
 
 .flex-container-text2 {
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    justify-items: end;
-    margin-left: -140px;
-    padding: 0px 0px 0px 0px;
-    margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  justify-items: end;
+  margin-left: -140px;
+  padding: 0px 0px 0px 0px;
+  margin-top: -60px;
 }
 
-
 .flex-container-text1 h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 28px;
-    text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  text-align: left;
 }
 
 .flex-container-text1 p {
-    font-family: TeXGyreTermes;
-    font-size: 21px;
-    text-align: left;
-    margin-top: -7px;
-    color: #8F9FAE !important;
+  font-family: TeXGyreTermes;
+  font-size: 21px;
+  text-align: left;
+  margin-top: -7px;
+  color: #8f9fae !important;
 }
 
 .flex-container-text2 h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 28px;
-    text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  text-align: left;
 }
 
 .flex-container-text2 p {
-    font-family: TeXGyreTermes;
-    font-size: 21px;
-    text-align: left;
-    margin-top: -7px;
-    color: #8F9FAE !important;
+  font-family: TeXGyreTermes;
+  font-size: 21px;
+  text-align: left;
+  margin-top: -7px;
+  color: #8f9fae !important;
 }
 
 .flex-container-StatsExp {
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    justify-items: end;
-    margin-left: -80px;
-    margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  justify-items: end;
+  margin-left: -80px;
+  margin-top: -60px;
 }
 
 .flex-container-StatsExp h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 28px;
-    text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  text-align: left;
 }
 
 .flex-container-StatsExp p {
-    font-family: TeXGyreTermes;
-    font-size: 21px;
-    text-align: left;
-    margin-top: -7px;
-    color: #8F9FAE !important;
+  font-family: TeXGyreTermes;
+  font-size: 21px;
+  text-align: left;
+  margin-top: -7px;
+  color: #8f9fae !important;
 }
 
 .flex-container-StatsClients {
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    justify-items: end;
-    margin-left: -110px;
-    margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  justify-items: end;
+  margin-left: -110px;
+  margin-top: -60px;
 }
 
 .flex-container-StatsClients h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 28px;
-    text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  text-align: left;
 }
 
 .flex-container-StatsClients p {
-    font-family: TeXGyreTermes;
-    font-size: 21px;
-    text-align: left;
-    margin-top: -7px;
-    color: #8F9FAE !important;
+  font-family: TeXGyreTermes;
+  font-size: 21px;
+  text-align: left;
+  margin-top: -7px;
+  color: #8f9fae !important;
 }
 
 .flex-container-StatsArticles {
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    justify-items: end;
-    margin-left: -170px;
-    margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  justify-items: end;
+  margin-left: -170px;
+  margin-top: -60px;
 }
 
 .flex-container-StatsArticles h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 28px;
-    text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  text-align: left;
 }
 
 .flex-container-StatsArticles p {
-    font-family: TeXGyreTermes;
-    font-size: 21px;
-    text-align: left;
-    margin-top: -7px;
-    color: #8F9FAE !important;
+  font-family: TeXGyreTermes;
+  font-size: 21px;
+  text-align: left;
+  margin-top: -7px;
+  color: #8f9fae !important;
 }
 
 .flex-container-StatsWordsCV {
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-    justify-items: end;
-    margin-left: -220px;
-    margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  justify-items: end;
+  margin-left: -220px;
+  margin-top: -60px;
 }
 
 .flex-container-StatsWordsCV h2 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 28px;
-    text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  text-align: left;
 }
 
 .flex-container-StatsWordsCV p {
-    font-family: TeXGyreTermes;
-    font-size: 21px;
-    text-align: left;
-    margin-top: -7px;
-    color: #8F9FAE !important;
+  font-family: TeXGyreTermes;
+  font-size: 21px;
+  text-align: left;
+  margin-top: -7px;
+  color: #8f9fae !important;
 }
