@@ -5,8 +5,8 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-template-rows: repeat(12,1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
   grid-gap: 1px;
   padding: 1px;
   height: 100vh;
@@ -20,14 +20,12 @@
   background-color: teal;
   grid-row: 1/12;
   grid-column: 1;
-
 }
 
 .grid-item-2 {
   background-color: #fff;
   grid-column: 2/7;
   grid-row: 1/10;
-
 }
 
 .grid-item-stats-1 {
@@ -37,7 +35,7 @@
 }
 
 .grid-item-stats-2 {
-  background-color:#fff;
+  background-color: #fff;
   grid-column: 4/4;
   grid-row: 11/12;
 }
@@ -46,20 +44,16 @@
   background-color: #fff;
   grid-column: 7/12;
   grid-row: 1/12;
-
 }
 
 .grid-item-5 {
-  background-color:#fff;
+  background-color: #fff;
   grid-column: 12/13;
   grid-row: 1/12;
-
 }
 
 .grid-item-6 {
   background-color: #fff;
   grid-column: 1/13;
   grid-row: 12/12;
-
 }
-
