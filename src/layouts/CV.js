@@ -13,16 +13,14 @@ import StatsView from "./StatsView";
 class CV extends Component {
   render() {
     return (
-      <Router>
-        <div className="rama">
-          <div className="container">
-            <div className="grid">
-              <div className="grid-item grid-item-1">{<Toggle />}</div>
-              <div className="grid-item grid-item-5">{<Navigation />}</div>
-            </div>
+      <div className="rama">
+        <div className="container">
+          <div className="grid">
+            <div className="grid-item grid-item-1">{<Toggle />}</div>
+            <div className="grid-item grid-item-5">{<Navigation />}</div>
           </div>
         </div>
-      </Router>
+      </div>
     );
   }
 }

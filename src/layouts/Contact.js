@@ -8,19 +8,17 @@ import Text from "./Text";
 class Contact extends Component {
   render() {
     return (
-      <Router>
-        <div className="rama">
-          <div className="container">
-            <div className="grid">
-              <div className="grid-item grid-item-1">{<Toggle />}</div>
-              <div className="grid-item grid-item-2">{<Text />}</div>
-              <div className="grid-item grid-item-3"></div>
-              <div className="grid-item grid-item-5">{<Navigation />}</div>
-              <div className="grid-item grid-item-6"></div>
-            </div>
+      <div className="rama">
+        <div className="container">
+          <div className="grid">
+            <div className="grid-item grid-item-1">{<Toggle />}</div>
+            <div className="grid-item grid-item-2">{<Text />}</div>
+            <div className="grid-item grid-item-3"></div>
+            <div className="grid-item grid-item-5">{<Navigation />}</div>
+            <div className="grid-item grid-item-6"></div>
           </div>
         </div>
-      </Router>
+      </div>
     );
   }
 }
