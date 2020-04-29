@@ -1,10 +1,6 @@
-.frame {
-  border: 1px solid red;
-  z-index: 100;
-}
-
 .container {
-  position: absolute;
+  position: relative;
+  min-width: 100%;
 }
 .grid {
   display: grid;
