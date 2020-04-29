@@ -28,27 +28,4 @@ const Navigation = () => {
   );
 };
 
-/** 
-const Navigation = () => {
-
-    return (
-        <div className="main">
-            <ul>
-                <li>
-                    <NavLink to="/">PORTFOLIO</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/o-mnie">O MNIE</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/cv">MOJE CV</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/kontakt">KONTAKT</NavLink>
-                </li>
-            </ul>
-        </div>
-    )
-}
-*/
 export default Navigation;
