@@ -9,6 +9,7 @@ import Picture from "./Picture";
 import Butt from "./Butt";
 import StatsWords from "./StatsWords";
 import StatsView from "./StatsView";
+import Stats from "./Stats";
 
 class Home extends Component {
   render() {
@@ -20,7 +21,9 @@ class Home extends Component {
               <div className="grid-item grid-item-1">{<Toggle />}</div>
               <div className="grid-item grid-item-2">{<Text />}</div>
               <div className="grid-item grid-item-stats-1">
-                {<StatsWords />}
+                <div className="grid-item experience">
+                  {<Stats upperText="test" bottomText="test" />}
+                </div>
               </div>
 
               <div className="grid-item grid-item-stats-2">{<StatsView />}</div>
