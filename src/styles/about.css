@@ -1,3 +1,14 @@
+.rama {
+  width: 80vw;
+  height: 78vh;
+  border-left: 1px green solid;
+  border-right: 1px green solid;
+  border-top: 1px green solid;
+  border-bottom: 1px green solid;
+  position: absolute;
+  z-index: ;
+}
+
 .container {
   position: relative;
   min-width: 100%;

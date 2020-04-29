@@ -3,7 +3,6 @@ import "../styles/App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import Navigation from "./Navigation";
 import Toggle from "./Toggle";
-import Form from "./Form";
 import Text from "./Text";
 
 class Contact extends Component {
