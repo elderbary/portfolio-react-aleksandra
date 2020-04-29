@@ -1,20 +1,15 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/stats.css';
+import React, { Component } from "react";
+import "../styles/stats.css";
 
-const StatsWords = () => {
+class Stats extends Component {
+  render() {
     return (
-
-        <div className="flex-container-text1">
-            <h2>3453
-            </h2>
-            <p>
-                słów
-            </p>
-
-        </div>
-
-    )
+      <div className="flex-container-StatsExp">
+        <h2>{this.props.upperTextOne}</h2>
+        <p>{this.props.bottomTextOne}</p>
+      </div>
+    );
+  }
 }
 
-export default StatsWords; 
+export default Stats;

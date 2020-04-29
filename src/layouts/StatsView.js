@@ -1,20 +1,15 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/stats.css';
+import React, { Component } from "react";
+import "../styles/stats.css";
 
-const StatsView = () => {
+class Stats extends Component {
+  render() {
     return (
-
-        <div className="flex-container-text2">
-            <h2>12,456
-            </h2>
-            <p>
-                wyświetleń
-            </p>
-
-        </div>
-
-    )
+      <div className="flex-container-StatsExp">
+        <h2>{this.props.upperTextTwo}</h2>
+        <p>{this.props.bottomTextTwo}</p>
+      </div>
+    );
+  }
 }
 
-export default StatsView; 
+export default Stats;

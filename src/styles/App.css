@@ -1,8 +1,11 @@
-.container {
-  position: relative;
-  min-width: 100%;
+.frame {
+  border: 1px solid red;
+  z-index: 100;
 }
 
+.container {
+  position: absolute;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);

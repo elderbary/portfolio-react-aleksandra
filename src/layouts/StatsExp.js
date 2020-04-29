@@ -1,20 +1,13 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/stats.css';
+import React from "react";
+import "../styles/stats.css";
 
 const StatsExp = () => {
-    return (
+  return (
+    <div className="flex-container-text1">
+      <h2>5 lat</h2>
+      <p>doświadczenia</p>
+    </div>
+  );
+};
 
-        <div className="flex-container-StatsExp">
-            <h2>5 lat
-            </h2>
-            <p>
-                doświadczenia
-            </p>
-
-        </div>
-
-    )
-}
-
-export default StatsExp; 
+export default StatsExp;
