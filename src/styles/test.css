@@ -18,9 +18,10 @@
 .col-btn {
   height: 75%;
 }
-.container-left {
+.div-left {
   margin-top: 25%;
-  height: 50%;
+  height: 75%;
+  width: 80%;
   background: red;
   /*width:70%;*/
   /*height: 50%;*/
@@ -28,4 +29,7 @@
   /*left: 50%;*/
   /*top: 50%;*/
   /*transform: translate(-50%, -50%);*/
+}
+.col-text {
+  background: #00b3ff;
 }
