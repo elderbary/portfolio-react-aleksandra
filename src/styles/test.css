@@ -3,7 +3,7 @@
     height: 100vh;
     width: 100vw;
     outline: 5px solid green;
-    outline-offset: -50px;
+    outline-offset: -7vh;
 }
 .col-std {
     border: 5px solid blue;
@@ -16,4 +16,7 @@
 .row-bottom {
     height: 10vh;
     color: white;
+}
+.col-more {
+    height: 75%;
 }
