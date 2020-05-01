@@ -1,51 +1,22 @@
 .container-std {
-<<<<<<< HEAD
   background: red;
   height: 100vh;
   width: 100vw;
   outline: 5px solid green;
   outline-offset: -7vh;
-=======
-    height: 100vh;
-    width: 100vw;
-    outline: 5px solid green;
-    outline-offset: -7vh;
->>>>>>> f566ef72ea6872a5c34617991079db4b5d998075
 }
 .col-std {
   border: 5px solid blue;
 }
 .row-main {
-<<<<<<< HEAD
   padding-top: 10vh;
   height: 90vh;
   color: yellow;
-=======
-    padding-top: 10vh;
-    height: 90vh;
->>>>>>> f566ef72ea6872a5c34617991079db4b5d998075
 }
 .row-bottom {
   height: 10vh;
   color: white;
 }
-<<<<<<< HEAD
 .col-more {
   height: 75%;
 }
-=======
-.col-btn {
-    height: 75%;
-}
-.container-left {
-    margin-top: 25%;
-    height: 75%;
-    background: red;
-    /*width:70%;*/
-    /*height: 50%;*/
-    /*position: absolute;*/
-    /*left: 50%;*/
-    /*top: 50%;*/
-    /*transform: translate(-50%, -50%);*/
-}
->>>>>>> f566ef72ea6872a5c34617991079db4b5d998075
