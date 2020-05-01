@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "../styles/App.css";
-import { BrowserRouter as Router } from "react-router-dom";
 import Navigation from "./Navigation";
 import Toggle from "./Toggle";
 import Text from "./Text";
+import Form from "./Form";
 
 class Contact extends Component {
   render() {
@@ -13,7 +13,7 @@ class Contact extends Component {
           <div className="grid">
             <div className="grid-item grid-item-1">{<Toggle />}</div>
             <div className="grid-item grid-item-2">{<Text />}</div>
-            <div className="grid-item grid-item-3"></div>
+             <div className="grid-item grid-item-3">{<Form/>}</div>
             <div className="grid-item grid-item-5">{<Navigation />}</div>
             <div className="grid-item grid-item-6"></div>
           </div>

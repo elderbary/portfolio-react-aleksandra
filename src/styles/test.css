@@ -1,22 +1,22 @@
 .container-std {
-    background: red;
-    height: 100vh;
-    width: 100vw;
-    outline: 5px solid green;
-    outline-offset: -7vh;
+  background: red;
+  height: 100vh;
+  width: 100vw;
+  outline: 5px solid green;
+  outline-offset: -7vh;
 }
 .col-std {
-    border: 5px solid blue;
+  border: 5px solid blue;
 }
 .row-main {
-    padding-top: 10vh;
-    height: 90vh;
-    color: yellow;
+  padding-top: 10vh;
+  height: 90vh;
+  color: yellow;
 }
 .row-bottom {
-    height: 10vh;
-    color: white;
+  height: 10vh;
+  color: white;
 }
 .col-more {
-    height: 75%;
+  height: 75%;
 }
