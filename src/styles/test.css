@@ -1,5 +1,4 @@
 .container-std {
-  background: red;
   height: 100vh;
   width: 100vw;
   outline: 5px solid green;
@@ -11,12 +10,22 @@
 .row-main {
   padding-top: 10vh;
   height: 90vh;
-  color: yellow;
 }
 .row-bottom {
   height: 10vh;
   color: white;
 }
-.col-more {
+.col-btn {
   height: 75%;
+}
+.container-left {
+  margin-top: 25%;
+  height: 50%;
+  background: red;
+  /*width:70%;*/
+  /*height: 50%;*/
+  /*position: absolute;*/
+  /*left: 50%;*/
+  /*top: 50%;*/
+  /*transform: translate(-50%, -50%);*/
 }
