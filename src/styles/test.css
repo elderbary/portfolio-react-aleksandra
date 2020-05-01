@@ -1,0 +1,19 @@
+.container-std {
+    background: red;
+    height: 100vh;
+    width: 100vw;
+    outline: 5px solid green;
+    outline-offset: -50px;
+}
+.col-std {
+    border: 5px solid blue;
+}
+.row-main {
+    padding-top: 10vh;
+    height: 90vh;
+    color: yellow;
+}
+.row-bottom {
+    height: 10vh;
+    color: white;
+}
