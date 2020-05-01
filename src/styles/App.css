@@ -1,8 +1,6 @@
 .container {
   position: relative;
   min-width: 100%;
-  outline: 5px solid green;
-  outline-offset: -7vh;
 }
 .grid {
   display: grid;
