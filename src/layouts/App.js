@@ -5,6 +5,7 @@ import Home from "./Home";
 import About from "./About";
 import CV from "./CV";
 import Contact from "./Contact";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render() {
