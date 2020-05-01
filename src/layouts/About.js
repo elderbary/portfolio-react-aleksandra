@@ -14,7 +14,6 @@ import StatsExp from "./StatsExp";
 class About extends Component {
   render() {
     return (
-      <div className="frame">
         <div className="container">
           <div className="grid">
             <div className="grid-item grid-item-1">{<Toggle />}</div>
@@ -31,7 +30,6 @@ class About extends Component {
             <div className="grid-item grid-item-6">{<Butt />}</div>
           </div>
         </div>
-      </div>
     );
   }
 }
