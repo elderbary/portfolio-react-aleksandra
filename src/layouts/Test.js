@@ -6,14 +6,7 @@ import Col from "react-bootstrap/Col";
 
 import Navigation from "./Navigation";
 import Toggle from "./Toggle";
-import Social from "./Social";
-import Text from "./Text";
-import Picture from "./Picture";
 import Butt from "./Butt";
-import StatsWordsCV from "./StatsWordsCV";
-import StatsArticles from "./StatsArticles";
-import StatsClients from "./StatsClients";
-import StatsExp from "./StatsExp";
 import Statistics from "./Statistics";
 
 class Test extends Component {

@@ -19,7 +19,15 @@
   height: 75%;
 }
 .div-left {
-  margin-top: 25%;
+  background-color: red;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  bottom: 10%;
+  left: 10%;
+  margin: auto;
+
+ /* margin-top: 12%;
   height: 75%;
   width: 80%;
   background: red;
@@ -31,5 +39,6 @@
   /*transform: translate(-50%, -50%);*/
 }
 .col-text {
+  height: 52vh;
   background: #00b3ff;
 }
