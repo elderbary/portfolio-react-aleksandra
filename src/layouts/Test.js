@@ -8,6 +8,7 @@ import Navigation from "./Navigation";
 import Toggle from "./Toggle";
 import Btn from "./Btn";
 import Statistics from "./Statistics";
+import Text from "./Text";
 
 class Test extends Component {
     render() {
@@ -19,7 +20,7 @@ class Test extends Component {
                         <div className="div-left">
                             <Container className="container-left">
                                 <Row className="row-text">
-                                    <Col className="col-std col-text" md={12}>Test</Col>
+                                     <Col className="col-std col-text" md={12}>{<Text />}</Col>
                                 </Row>
                                 <Row className="row-stats">
                                     <Col className="col-std col-stats"><Statistics score="Test" description ="Test"/></Col>
