@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/nav.css";
+import "../styles/navigation.css";
 import { NavLink } from "react-router-dom";
 
 const list = [
@@ -18,7 +18,7 @@ const Navigation = () => {
     </li>
   ));
   return (
-    <nav className="main">
+    <nav className="navigation">
       <ul>{menu}</ul>
     </nav>
   );

@@ -1,3 +1,13 @@
+.container-std {
+  height: 100vh;
+  width: 100vw;
+  outline: 5px solid green;
+  outline-offset: -7vh;
+}
+.col-std {
+  border: 5px solid blue;
+}
+
 .container {
   position: relative;
   min-width: 100%;
