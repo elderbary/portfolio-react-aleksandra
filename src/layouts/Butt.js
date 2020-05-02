@@ -1,9 +1,9 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/butt.css';
+
 const Butt = () => {
     return (
-        <div className="container">
+        <div className="btn-container">
             <button className="button" type="button">Zobacz więcej</button>
         </div>
     )

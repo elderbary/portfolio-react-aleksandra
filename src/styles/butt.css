@@ -1,4 +1,4 @@
-.container {
+.btn-container {
     text-align: center;
     margin: 0 auto;
 }
@@ -6,9 +6,8 @@
 .button {
     border: 1px solid #C70909;
     background: none;
-    margin-top: -25px;
-    padding: 7px 20px;
-    font-size: 24px;
+    padding: 9px 22px;
+    font-size: 26px;
     font-family: 'Poppins', sans-serif;
     color: #C70909;
     cursor: pointer;
@@ -26,6 +25,14 @@
 }
 
 .button:hover {
-    color: #F63F3F;
-    border: 1px solid #F63F3F;
+    background-color: #F63F3F;
+    border: 1px solid white;
+    color: white;
 }
+
+@media (max-width: 1199.98px) { 
+    .button {
+        padding: 6px 18px;
+        font-size: 20px;
+    }
+ }
