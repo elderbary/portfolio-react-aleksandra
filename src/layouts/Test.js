@@ -10,6 +10,7 @@ import Btn from "./Btn";
 import Statistics from "./Statistics";
 import Text from "./Text";
 import Picture from "./Picture";
+import Social from "./Social";
 
 class Test extends Component {
     render() {
@@ -37,7 +38,10 @@ class Test extends Component {
                             {<Picture />}
                         </div>
                     </Col>
-                    <Col className="col-std col-nav" md={1}>{<Navigation />}</Col>
+                    <Col className="col-std col-nav" md={1}>
+                        {<Navigation />}
+                        {<Social />}
+                    </Col>
                 </Row>
                 <Row className="row-bottom">
                     <Col className="col-std col-btn" md={{ span: 4, offset: 4}}>{<Btn />}</Col>

@@ -1,16 +1,17 @@
-.flex-container {
-    display: flex;
-    justify-items: start;
-    flex-direction: column-reverse;
+.social {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    margin: auto;
+    transform: translate(-0%, -100%);
     z-index: 1;
+    background: orange;
 }
 
 
-.flex-container ul {
+.social ul {
     list-style-type: none;
 }
 
-.flex-container li {
-    margin-top: 6px;
-    margin-right: -140px;
+.social li {
 }
