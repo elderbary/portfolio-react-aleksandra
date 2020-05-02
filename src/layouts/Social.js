@@ -6,7 +6,7 @@ import instagram from '../images/instagram.png';
 
 const Social = () => {
     return (
-        <div className="flex-container">
+        <div className="social-container">
             <ul>
                 <li>
                     <img src={facebook} alt="facebook" />

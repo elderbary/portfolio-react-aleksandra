@@ -1,16 +1,12 @@
-.flex-container {
-    display: flex;
-    justify-items: start;
-    flex-direction: column-reverse;
-    z-index: 1;
+.social-container {
+    margin-top: 100%;
 }
 
 
-.flex-container ul {
+.social-container ul {
     list-style-type: none;
 }
 
-.flex-container li {
+.social-container li {
     margin-top: 6px;
-    margin-right: -140px;
 }
