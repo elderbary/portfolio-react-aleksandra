@@ -1,5 +1,5 @@
 .text-container {
-  top: 15%;
+  top: 20%;
   bottom: 15%;
   position: absolute;
   left: 0.1%;
@@ -14,7 +14,7 @@
 }
 .title h1 {
     font-family: TeXGyreTermes;
-    font-size: 80px;
+    font-size: 72px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -28,7 +28,7 @@
 .text p {
     margin-top: 5%;
     font-family: TeXGyreTermes;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -41,30 +41,33 @@
 
 @media (max-width: 1600px) {
     .title h1 {
-        font-size: 1px;
+        font-size: 64px;
     }
 
     .text p {
-        font-size: 1px;
+        font-size: 22px;
+    }
+    .text-container {
+        top: 22%;
     }
    }
    
    @media (max-width: 1400px) {
     .title h1 {
-        font-size: 1px;
+        font-size: 55px;
     }
 
     .text p {
-        font-size: 1px;
+        font-size: 20px;
     }
    }
    
    @media (max-width: 992px) {
     .title h1 {
-        font-size: 1px;
+        font-size: 40px;
     }
 
     .text p {
-        font-size: 1px;
+        font-size: 20px;
     }
    }
