@@ -6,8 +6,9 @@ import Col from "react-bootstrap/Col";
 
 import Navigation from "./Navigation";
 import Toggle from "./Toggle";
-import Butt from "./Butt";
+import Btn from "./Btn";
 import Statistics from "./Statistics";
+import Text from "./Text";
 import Picture from "./Picture";
 
 class Test extends Component {
@@ -20,7 +21,7 @@ class Test extends Component {
                         <div className="div-left">
                             <Container className="container-left">
                                 <Row className="row-text">
-                                    <Col className="col-std col-text" md={12}>Test</Col>
+                                     <Col className="col-std col-text" md={12}>{<Text />}</Col>
                                 </Row>
                                 <Row className="row-stats">
                                     <Col className="col-std col-stats"><Statistics score="Test" description ="Test"/></Col>
@@ -39,7 +40,7 @@ class Test extends Component {
                     <Col className="col-std col-nav" md={1}>{<Navigation />}</Col>
                 </Row>
                 <Row className="row-bottom">
-                    <Col className="col-std col-btn" md={{ span: 4, offset: 4}}>{<Butt />}</Col>
+                    <Col className="col-std col-btn" md={{ span: 4, offset: 4}}>{<Btn />}</Col>
                 </Row>
             </Container>
         );

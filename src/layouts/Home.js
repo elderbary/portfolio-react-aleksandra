@@ -6,7 +6,6 @@ import Toggle from "./Toggle";
 import Social from "./Social";
 import Text from "./Text";
 import Picture from "./Picture";
-import Butt from "./Butt";
 import StatsView from "./StatsView";
 import StatsWords from "./StatsWords";
 
@@ -29,7 +28,6 @@ class Home extends Component {
             {<Social />}
           </div>
           <div className="grid-item grid-item-5">{<Navigation />}</div>
-          <div className="grid-item grid-item-6">{<Butt />}</div>
         </div>
       </div>
     );

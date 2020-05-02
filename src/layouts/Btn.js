@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/butt.css';
+import '../styles/btn.css';
 
-const Butt = () => {
+const Btn = () => {
     return (
         <div className="btn-container">
             <button className="button" type="button">Zobacz więcej</button>
@@ -9,4 +9,4 @@ const Butt = () => {
     )
 }
 
-export default Butt; 
+export default Btn; 
