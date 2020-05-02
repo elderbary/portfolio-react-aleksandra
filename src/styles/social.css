@@ -3,7 +3,7 @@
     top: 100%;
     left: 0%;
     margin: auto;
-    transform: translate(-0%, -100%);
+    transform: translate(-12%, -100%);
     z-index: 1;
     background: orange;
 }
@@ -14,4 +14,19 @@
 }
 
 .social li {
+    text-align: center;
+    margin-top: 22%;
 }
+
+
+@media (max-width: 1600px) {
+        .social {
+            transform: translate(-30%, -100%);
+        }
+   }
+   
+   @media (max-width: 1400px) {
+    .social {
+        transform: translate(-50%, -100%);
+    }
+   }
