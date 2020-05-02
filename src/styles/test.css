@@ -1,4 +1,16 @@
+.div-main {
+  width:96vw;
+  height: 96vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 .container-std {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   height: 100vh;
   width: 100vw;
   outline: 5px solid green;

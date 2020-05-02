@@ -15,38 +15,40 @@ import Social from "./Social";
 class Test extends Component {
     render() {
         return (
-            <Container className="container-std">
-                <Row className="row-main">
-                    <Col className="col-std col-toogle" md={1}>{<Toggle />}</Col>
-                    <Col className="col-std col-left" md={5}>
-                        <div className="div-left">
-                            <Container className="container-left">
-                                <Row className="row-text">
-                                     <Col className="col-std col-text" md={12}>{<Text />}</Col>
-                                </Row>
-                                <Row className="row-stats">
-                                    <Col className="col-std col-stats"><Statistics score="Test" description ="Test"/></Col>
-                                    <Col className="col-std col-stats"><Statistics score="Test" description ="Test"/></Col>
-                                    <Col className="col-std col-stats"><Statistics score="Test" description ="Test"/></Col>
-                                    <Col className="col-std col-stats"><Statistics score="Test" description ="Test"/></Col>
-                                </Row>
-                            </Container>
-                        </div>
-                    </Col>
-                    <Col className="col-std col-right" md={5}>
-                        <div className="div-right">
-                            {<Picture />}
-                        </div>
-                    </Col>
-                    <Col className="col-std col-nav" md={1}>
-                        {<Navigation />}
-                        {<Social />}
-                    </Col>
-                </Row>
-                <Row className="row-bottom">
-                    <Col className="col-std col-btn" md={{ span: 4, offset: 4}}>{<Btn />}</Col>
-                </Row>
-            </Container>
+            <div className="div-main">
+                <Container className="container-std">
+                    <Row className="row-main">
+                        <Col className="col-std col-toogle" md={1}>{<Toggle />}</Col>
+                        <Col className="col-std col-left" md={5}>
+                            <div className="div-left">
+                                <Container className="container-left">
+                                    <Row className="row-text">
+                                        <Col className="col-std col-text" md={12}>{<Text />}</Col>
+                                    </Row>
+                                    <Row className="row-stats">
+                                        <Col className="col-std col-stats"><Statistics score="Test" description ="Test"/></Col>
+                                        <Col className="col-std col-stats"><Statistics score="Test" description ="Test"/></Col>
+                                        <Col className="col-std col-stats"><Statistics score="Test" description ="Test"/></Col>
+                                        <Col className="col-std col-stats"><Statistics score="Test" description ="Test"/></Col>
+                                    </Row>
+                                </Container>
+                            </div>
+                        </Col>
+                        <Col className="col-std col-right" md={5}>
+                            <div className="div-right">
+                                {<Picture />}
+                            </div>
+                        </Col>
+                        <Col className="col-std col-nav" md={1}>
+                            {<Navigation />}
+                            {<Social />}
+                        </Col>
+                    </Row>
+                    <Row className="row-bottom">
+                        <Col className="col-std col-btn" md={{ span: 4, offset: 4}}>{<Btn />}</Col>
+                    </Row>
+                </Container>
+            </div>
         );
     }
 }
