@@ -1,10 +1,6 @@
 import React from "react";
 import "../styles/nav.css";
 import { NavLink } from "react-router-dom";
-import App from "./App";
-import About from "./About";
-import CV from "./CV";
-import Contact from "./Contact";
 
 const list = [
   { name: "portfolio", path: "/", exact: true },

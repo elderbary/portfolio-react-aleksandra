@@ -21,10 +21,10 @@
 .div-left {
   background-color: red;
   position: absolute;
-  top: 10%;
-  right: 10%;
-  bottom: 10%;
-  left: 10%;
+  top: 8%;
+  right: 8%;
+  bottom: 8%;
+  left: 8%;
   margin: auto;
 
  /* margin-top: 12%;
@@ -39,6 +39,6 @@
   /*transform: translate(-50%, -50%);*/
 }
 .col-text {
-  height: 53vh;
+  height: 56vh;
   background: #00b3ff;
 }

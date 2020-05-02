@@ -1,14 +1,8 @@
 import React, { Component } from "react";
 import "../styles/App.css";
-import { BrowserRouter as Router } from "react-router-dom";
 import Navigation from "./Navigation";
 import Toggle from "./Toggle";
-import Social from "./Social";
-import Text from "./Text";
-import Picture from "./Picture";
-import Butt from "./Butt";
-import StatsWords from "./StatsWords";
-import StatsView from "./StatsView";
+
 
 class CV extends Component {
   render() {

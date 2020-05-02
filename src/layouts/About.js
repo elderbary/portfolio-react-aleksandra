@@ -5,7 +5,6 @@ import Toggle from "./Toggle";
 import Social from "./Social";
 import Text from "./Text";
 import Picture from "./Picture";
-import Butt from "./Butt";
 import StatsWordsCV from "./StatsWordsCV";
 import StatsArticles from "./StatsArticles";
 import StatsClients from "./StatsClients";
@@ -27,7 +26,6 @@ class About extends Component {
               {<Social />}
             </div>
             <div className="grid-item grid-item-5">{<Navigation />}</div>
-            <div className="grid-item grid-item-6">{<Butt />}</div>
           </div>
         </div>
     );
