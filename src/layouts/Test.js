@@ -34,7 +34,7 @@ class Test extends Component {
                     <Col className="col-std col-nav" md={1}>{<Navigation />}</Col>
                 </Row>
                 <Row className="row-bottom">
-                    <Col className="col-std col-btn" md={{ span: 2, offset: 5}}>{<Butt />}</Col>
+                    <Col className="col-std col-btn" md={{ span: 4, offset: 4}}>{<Butt />}</Col>
                 </Row>
             </Container>
         );

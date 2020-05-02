@@ -6,7 +6,7 @@
 .button {
     border: 1px solid #C70909;
     background: none;
-    padding: 9px 22px;
+    padding: 9px 19px;
     font-size: 26px;
     font-family: 'Poppins', sans-serif;
     color: #C70909;
@@ -30,9 +30,24 @@
     color: white;
 }
 
-@media (max-width: 1199.98px) { 
-    .button {
-        padding: 6px 18px;
-        font-size: 20px;
-    }
+@media (max-width: 1600px) {
+ .button {
+    padding: 5px 14px;
+    font-size: 24px;
  }
+}
+
+@media (max-width: 1400px) {
+    .button {
+        padding: 6px 15px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+    
+    .button {
+        padding: 5px 13px;
+        font-size: 22px;
+    }
+}
