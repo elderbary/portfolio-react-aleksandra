@@ -1,9 +1,9 @@
 .text-container {
-  top: 20%;
-  bottom: 15%;
-  position: absolute;
-  left: 0.1%;
-  right: 0.1%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    margin: auto;
+    transform: translate(-0%, -50%);
 }
 
 .title {
@@ -46,9 +46,6 @@
 
     .text p {
         font-size: 22px;
-    }
-    .text-container {
-        top: 22%;
     }
    }
    
