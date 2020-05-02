@@ -38,7 +38,22 @@
   /*top: 50%;*/
   /*transform: translate(-50%, -50%);*/
 }
+
+.div-right {
+  background-color: red;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  bottom: 10%;
+  left: 10%;
+}
+
 .col-text {
   height: 53vh;
+  background: #00b3ff;
+}
+
+.col-picture {
+  height: 100%;
   background: #00b3ff;
 }

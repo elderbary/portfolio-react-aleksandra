@@ -8,6 +8,7 @@ import Navigation from "./Navigation";
 import Toggle from "./Toggle";
 import Butt from "./Butt";
 import Statistics from "./Statistics";
+import Picture from "./Picture";
 
 class Test extends Component {
     render() {
@@ -30,7 +31,11 @@ class Test extends Component {
                             </Container>
                         </div>
                     </Col>
-                    <Col className="col-std col-right" md={5}>Prawo</Col>
+                    <Col className="col-std col-right" md={5}>
+                        <div className="div-right">
+                            {<Picture />}
+                        </div>
+                    </Col>
                     <Col className="col-std col-nav" md={1}>{<Navigation />}</Col>
                 </Row>
                 <Row className="row-bottom">
