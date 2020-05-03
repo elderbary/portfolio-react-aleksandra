@@ -1,0 +1,42 @@
+.english-container h2 {
+    font-size: 22px;
+    font-family: TeXGyreTermes;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3f3862;
+}
+
+.progress-english {
+    width: 15px;
+    height: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #8F9FAE;
+    background: #8F9FAE;
+    border-radius: 100%;
+}
+
+.progress-container li {
+    display: inline-block;
+    margin-right: 4%;
+}
+
+.progress-english-null {
+    width: 15px;
+    height: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #8F9FAE;
+    border-radius: 100%;
+    border: solid 0.5px #8F9FAE;
+    background: #ffffff;
+}
+
+.progress-container {
+    transform: translate(100%, 5%);
+    position: absolute;
+    display: block;
+    width: 5vw;
+    }
+
+.english-container {
+        margin-top: 2vh;
+    }

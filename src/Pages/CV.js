@@ -9,6 +9,7 @@ import Toggle from "../Components/Toggle";
 import Btn from "../Components/Btn";
 import Social from "../Components/Social";
 import Timeline from "../Components/Timeline";
+import English from "../Components/English";
 
 
 class Test extends Component {
@@ -21,10 +22,10 @@ class Test extends Component {
                         <Col className="col-std col-center" md={10}>
                             <div className="div-center">
                             <Row className="row-stats">
-                                        <Col className="col-std col-stats"></Col>
-                                        <Col className="col-std col-stats"></Col>
-                                        <Col className="col-std col-stats"></Col>
-                                        <Col className="col-std col-stats"></Col>
+                                        <Col className="col-std col-stats">{<English />}</Col>
+                                        <Col className="col-std col-stats">{<English />}</Col>
+                                        <Col className="col-std col-stats">{<English />}</Col>
+                                        <Col className="col-std col-stats">{<English />}</Col>
                                     </Row>
                                     <Row className="row-cv">
                                       {<Timeline />}

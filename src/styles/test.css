@@ -13,11 +13,8 @@
   transform: translate(-50%, -50%);
   height: 100vh;
   width: 100vw;
-  outline: 5px solid green;
+  outline: 1.5px solid black;
   outline-offset: -7vh;
-}
-.col-std {
-  border: 5px solid blue;
 }
 .row-main {
   padding-top: 10vh;
@@ -31,7 +28,6 @@
   height: 75%;
 }
 .div-center {
-  background-color: red;
   position: absolute;
   top: 4%;
   right: 4%;
@@ -40,7 +36,6 @@
   margin: auto;
 }
 .div-left {
-  background-color: red;
   position: absolute;
   top: 8%;
   right: 8%;
@@ -61,7 +56,6 @@
 }
 
 .div-right {
-  background-color: red;
   position: absolute;
   top: 10%;
   right: 10%;
@@ -71,12 +65,10 @@
 
 .col-text {
   height: 56vh;
-  background: #00b3ff;
 }
 
 .col-picture {
   height: 100%;
-  background: #00b3ff;
 }
 
 .col-stats {
@@ -84,6 +76,5 @@
 }
 
 .row-cv {
-  background: yellow;
   height: 60vh;
 }
