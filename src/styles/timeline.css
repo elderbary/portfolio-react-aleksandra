@@ -8,9 +8,6 @@
     display: block;
 }
 
-.timeline-container img {
-
-}
 @media (max-width: 1600px) {
     .timeline-container img {
         max-width: 70vw;

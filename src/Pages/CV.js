@@ -4,11 +4,11 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import Navigation from "./Navigation";
-import Toggle from "./Toggle";
-import Btn from "./Btn";
-import Social from "./Social";
-import Timeline from "./Timeline";
+import Navigation from "../Components/Navigation";
+import Toggle from "../Components/Toggle";
+import Btn from "../Components/Btn";
+import Social from "../Components/Social";
+import Timeline from "../Components/Timeline";
 
 
 class Test extends Component {

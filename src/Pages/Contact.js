@@ -4,12 +4,12 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import Navigation from "./Navigation";
-import Toggle from "./Toggle";
-import Btn from "./Btn";
-import Text from "./Text";
-import Form from "./Form";
-import Social from "./Social";
+import Navigation from "../Components/Navigation";
+import Toggle from "../Components/Toggle";
+import Btn from "../Components/Btn";
+import Text from "../Components/Text";
+import Form from "../Components/Form";
+import Social from "../Components/Social";
 
 class Test extends Component {
     render() {

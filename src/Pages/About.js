@@ -12,6 +12,8 @@ import Text from "../Components/Text";
 import Picture from "../Components/Picture";
 import Social from "../Components/Social";
 
+import aleksandra from '../images/aleksandra-wolna.jpg';
+
 class Test extends Component {
     render() {
         return (
@@ -36,7 +38,7 @@ class Test extends Component {
                         </Col>
                         <Col className="col-std col-right" md={5}>
                             <div className="div-right">
-                                {<Picture />}
+                            <Picture imgportfolio={aleksandra} alt="Aleksandra Wolna" />
                             </div>
                         </Col>
                         <Col className="col-std col-nav" md={1}>
@@ -45,7 +47,7 @@ class Test extends Component {
                         </Col>
                     </Row>
                     <Row className="row-bottom">
-                        <Col className="col-std col-btn" md={{ span: 4, offset: 4}}>{<Btn />}</Col>
+                        <Col className="col-std col-btn" md={{ span: 4, offset: 4}}><Btn btntext="Napisz do mnie" /></Col>
                     </Row>
                 </Container>
             </div>

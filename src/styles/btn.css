@@ -1,13 +1,15 @@
 .btn-container {
     text-align: center;
     margin: 0 auto;
+    width: 55%;
+    background: white;
 }
 
 .button {
     border: 1px solid #C70909;
     background: none;
     padding: 9px 19px;
-    font-size: 26px;
+    font-size: 25px;
     font-family: 'Poppins', sans-serif;
     color: #C70909;
     cursor: pointer;

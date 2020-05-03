@@ -4,6 +4,9 @@
   right: 0%;
   margin: auto;
   transform: translate(-0%, -50%);
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background: white;
 }
 
 .navigation ul {
