@@ -1,26 +1,49 @@
 import React, { Component } from "react";
-import "../styles/App.css";
+import "../styles/test.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 import Navigation from "./Navigation";
 import Toggle from "./Toggle";
+import Btn from "./Btn";
 import Text from "./Text";
 import Form from "./Form";
+import Social from "./Social";
 
-class Contact extends Component {
-  render() {
-    return (
-      <div className="rama">
-        <div className="container">
-          <div className="grid">
-            <div className="grid-item grid-item-1">{<Toggle />}</div>
-            <div className="grid-item grid-item-2">{<Text />}</div>
-             <div className="grid-item grid-item-3">{<Form/>}</div>
-            <div className="grid-item grid-item-5">{<Navigation />}</div>
-            <div className="grid-item grid-item-6"></div>
-          </div>
-        </div>
-      </div>
-    );
-  }
+class Test extends Component {
+    render() {
+        return (
+            <div className="div-main">
+                <Container className="container-std">
+                    <Row className="row-main">
+                        <Col className="col-std col-toogle" md={1}>{<Toggle />}</Col>
+                        <Col className="col-std col-left" md={5}>
+                            <div className="div-left">
+                                <Container className="container-left">
+                                    <Row className="row-text">
+                                        <Col className="col-std col-text" md={12}><Text title="Napisz do mnie" text ="Pisanie jest moją pasją, którą ciągle rozwijam. W ciągu 6 lat zaufało mi wiele wydawnictw, decydując się podjąć ze mną współpracę. Przez dwa lata pisałam dla Serialomaniaka, od roku moje teksty pojawiają się również na http://igimag.pl  W pisanych przez siebie tekstach jestem rzetelna, dotrzymuję terminów (jeśli nie – lojalnie uprzedzam) i chętnie próbuję nowych rzeczy.  W przyszłości chciałabym wydać swoją książkę "/></Col>
+                                    </Row>
+                                </Container>
+                            </div>
+                        </Col>
+                        <Col className="col-std col-right" md={5}>
+                            <div className="div-right">
+                            {<Form />}
+                            </div>
+                        </Col>
+                        <Col className="col-std col-nav" md={1}>
+                            {<Navigation />}
+                            {<Social />}
+                        </Col>
+                    </Row>
+                    <Row className="row-bottom">
+                        <Col className="col-std col-btn" md={{ span: 4, offset: 4}}><Btn btntext="Portfolio" /></Col>
+                    </Row>
+                </Container>
+            </div>
+        );
+    }
 }
 
-export default Contact;
+export default Test;

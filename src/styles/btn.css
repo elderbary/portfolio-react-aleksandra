@@ -13,6 +13,7 @@
     cursor: pointer;
     transition: 0.8s;
     position: relative;
+    text-transform: uppercase;
 }
 
 .button::before {
