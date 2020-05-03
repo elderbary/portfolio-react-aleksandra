@@ -1,12 +1,15 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../styles/picture.css';
-import pc from '../images/pc.png';
-const Picture = () => {
+
+class Picture extends Component {
+    render () {
+        const {imgportfolio} = this.props;
     return (
         <div className="picture">
-            <img src={pc} alt="pc" />
+            <img src={imgportfolio} alt={this.props.alt}/>
         </div>
     );
+}
 }
 
 export default Picture; 

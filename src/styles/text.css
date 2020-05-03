@@ -1,6 +1,6 @@
 .text-container {
     position: absolute;
-    top: 50%;
+    top: 55%;
     right: 0%;
     margin: auto;
     transform: translate(-0%, -50%);
@@ -28,7 +28,7 @@
 .text p {
     margin-top: 5%;
     font-family: TeXGyreTermes;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -45,17 +45,17 @@
     }
 
     .text p {
-        font-size: 22px;
+        font-size: 20px;
     }
    }
    
    @media (max-width: 1400px) {
     .title h1 {
-        font-size: 55px;
+        font-size: 48px;
     }
 
     .text p {
-        font-size: 20px;
+        font-size: 18.5px;
     }
    }
    
