@@ -30,6 +30,15 @@
 .col-btn {
   height: 75%;
 }
+.div-center {
+  background-color: red;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  bottom: 4%;
+  left: 4%;
+  margin: auto;
+}
 .div-left {
   background-color: red;
   position: absolute;
@@ -68,4 +77,13 @@
 .col-picture {
   height: 100%;
   background: #00b3ff;
+}
+
+.col-stats {
+  height: 12vh;
+}
+
+.row-cv {
+  background: yellow;
+  height: 60vh;
 }
