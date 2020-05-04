@@ -1,4 +1,4 @@
-.english-container h2 {
+.name-container h2 {
     font-size: 22px;
     font-family: TeXGyreTermes;
     letter-spacing: normal;
@@ -6,7 +6,7 @@
     color: #3f3862;
 }
 
-.progress-english {
+.progress {
     width: 15px;
     height: 15px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
@@ -20,7 +20,7 @@
     margin-right: 4%;
 }
 
-.progress-english-null {
+.progress-null {
     width: 15px;
     height: 15px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
@@ -36,6 +36,6 @@
 
 }
 
-.english-container {
+.name-container {
         margin-top: 2vh;
     }
