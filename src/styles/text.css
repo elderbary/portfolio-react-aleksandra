@@ -14,7 +14,7 @@
 }
 .title h1 {
     font-family: TeXGyreTermes;
-    font-size: 68px;
+    font-size: 66px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -41,7 +41,7 @@
 
 @media (max-width: 1600px) {
     .title h1 {
-        font-size: 64px;
+        font-size: 62px;
     }
 
     .text p {
@@ -51,11 +51,11 @@
    
    @media (max-width: 1400px) {
     .title h1 {
-        font-size: 48px;
+        font-size: 46px;
     }
 
     .text p {
-        font-size: 18px;
+        font-size: 17px;
     }
    }
    
