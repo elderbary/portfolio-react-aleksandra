@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "575e58be1c1c939dd7525f947223057f",
+    "revision": "c3767b63aae60d0e0006c6fe49a407c1",
     "url": "/portfolio-react-aleksandra/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react-aleksandra/static/css/2.a5b4ddd2.chunk.css"
   },
   {
-    "revision": "c25f7f8fbf6c818c8a45",
-    "url": "/portfolio-react-aleksandra/static/css/main.223e9c18.chunk.css"
+    "revision": "ba4517c45b879a6c5f85",
+    "url": "/portfolio-react-aleksandra/static/css/main.75157da3.chunk.css"
   },
   {
     "revision": "3be9823e81c422083960",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-react-aleksandra/static/js/2.a376cf33.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c25f7f8fbf6c818c8a45",
+    "revision": "ba4517c45b879a6c5f85",
     "url": "/portfolio-react-aleksandra/static/js/main.df2ab367.chunk.js"
   },
   {

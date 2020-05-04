@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-react-aleksandra/static/css/main.223e9c18.chunk.css",
+    "main.css": "/portfolio-react-aleksandra/static/css/main.75157da3.chunk.css",
     "main.js": "/portfolio-react-aleksandra/static/js/main.df2ab367.chunk.js",
     "main.js.map": "/portfolio-react-aleksandra/static/js/main.df2ab367.chunk.js.map",
     "runtime-main.js": "/portfolio-react-aleksandra/static/js/runtime-main.cd21b5db.js",
@@ -9,10 +9,10 @@
     "static/js/2.a376cf33.chunk.js": "/portfolio-react-aleksandra/static/js/2.a376cf33.chunk.js",
     "static/js/2.a376cf33.chunk.js.map": "/portfolio-react-aleksandra/static/js/2.a376cf33.chunk.js.map",
     "index.html": "/portfolio-react-aleksandra/index.html",
-    "precache-manifest.3038341e85747172b4cc1d6ac8601f96.js": "/portfolio-react-aleksandra/precache-manifest.3038341e85747172b4cc1d6ac8601f96.js",
+    "precache-manifest.bb1fe8321a6419c4400de40026fb7e34.js": "/portfolio-react-aleksandra/precache-manifest.bb1fe8321a6419c4400de40026fb7e34.js",
     "service-worker.js": "/portfolio-react-aleksandra/service-worker.js",
     "static/css/2.a5b4ddd2.chunk.css.map": "/portfolio-react-aleksandra/static/css/2.a5b4ddd2.chunk.css.map",
-    "static/css/main.223e9c18.chunk.css.map": "/portfolio-react-aleksandra/static/css/main.223e9c18.chunk.css.map",
+    "static/css/main.75157da3.chunk.css.map": "/portfolio-react-aleksandra/static/css/main.75157da3.chunk.css.map",
     "static/js/2.a376cf33.chunk.js.LICENSE.txt": "/portfolio-react-aleksandra/static/js/2.a376cf33.chunk.js.LICENSE.txt",
     "static/media/aleksandra-wolna.jpg": "/portfolio-react-aleksandra/static/media/aleksandra-wolna.e4fdf3a7.jpg",
     "static/media/facebook.svg": "/portfolio-react-aleksandra/static/media/facebook.75eb8f03.svg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.cd21b5db.js",
     "static/css/2.a5b4ddd2.chunk.css",
     "static/js/2.a376cf33.chunk.js",
-    "static/css/main.223e9c18.chunk.css",
+    "static/css/main.75157da3.chunk.css",
     "static/js/main.df2ab367.chunk.js"
   ]
 }
