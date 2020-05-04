@@ -31,11 +31,10 @@
 }
 
 .progress-container {
-    transform: translate(100%, 5%);
     position: absolute;
-    display: block;
     width: 5vw;
-    }
+
+}
 
 .english-container {
         margin-top: 2vh;

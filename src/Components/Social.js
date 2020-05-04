@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/social.css';
-import facebook from '../images/facebook.png';
-import twitter from '../images/twitter.png';
-import instagram from '../images/instagram.png';
+import facebook from '../images/facebook.svg';
+import twitter from '../images/twitter.svg';
+import instagram from '../images/instagram.svg';
 
 const Social = () => {
     return (

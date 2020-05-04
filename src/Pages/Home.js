@@ -12,7 +12,7 @@ import Text from "../Components/Text";
 import Picture from "../Components/Picture";
 import Social from "../Components/Social";
 
-import pc from '../images/pc.png';
+import pc from '../images/pc.svg';
 
 class Test extends Component {
     render() {

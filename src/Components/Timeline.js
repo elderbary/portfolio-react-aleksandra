@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/timeline.css';
-import timelineimg from '../images/timeline.png'
+import timelineimg from '../images/timeline.svg'
 
 const Timeline = () => {
     return (

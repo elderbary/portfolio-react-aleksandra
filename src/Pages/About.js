@@ -9,10 +9,9 @@ import Toggle from "../Components/Toggle";
 import Btn from "../Components/Btn";
 import Statistics from "../Components/Statistics";
 import Text from "../Components/Text";
-import Picture from "../Components/Picture";
 import Social from "../Components/Social";
+import CVPicture from "../Components/CVPicture";
 
-import aleksandra from '../images/aleksandra-wolna.jpg';
 
 class Test extends Component {
     render() {
@@ -38,7 +37,7 @@ class Test extends Component {
                         </Col>
                         <Col className="col-std col-right" md={5}>
                             <div className="div-right">
-                            <Picture imgportfolio={aleksandra} alt="Aleksandra Wolna" />
+                            {<CVPicture />}
                             </div>
                         </Col>
                         <Col className="col-std col-nav" md={1}>
