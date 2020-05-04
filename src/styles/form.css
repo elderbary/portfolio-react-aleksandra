@@ -38,11 +38,12 @@ form {
     outline: none;
     font-size: 16px;
     border: none;
-    padding: 15px;
+    padding: 13px;
     width: 50%;
     font-family: 'Poppins', sans-serif;
     transform: translate(50%, 0%);
     border: 1px solid #8F9FAE;
+    background: white;
   }
 
   form .error {

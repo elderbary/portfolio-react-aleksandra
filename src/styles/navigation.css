@@ -7,6 +7,7 @@
   padding-top: 2vh;
   padding-bottom: 2vh;
   background: white;
+  width: 10.5vw;
 }
 
 .navigation ul {
@@ -18,7 +19,7 @@
   text-decoration: none;
   color: #707070;
   text-transform: uppercase;
-  padding: 6px;
+  padding: 5px;
   font-size: 23px;
   text-align: right;
   transition: 0.2s;

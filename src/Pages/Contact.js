@@ -38,7 +38,7 @@ class Test extends Component {
                         </Col>
                     </Row>
                     <Row className="row-bottom">
-                        <Col className="col-std col-btn" md={{ span: 4, offset: 4}}><Btn btntext="Portfolio" /></Col>
+                        <Col className="col-std col-btn" md={{ span: 4, offset: 4}}><Btn href="./" btntext="Portfolio" /></Col>
                     </Row>
                 </Container>
             </div>

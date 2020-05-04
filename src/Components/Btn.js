@@ -5,7 +5,7 @@ class Btn extends Component {
     render () {
     return (
         <div className="btn-container">
-            <button className="button" type="button">{this.props.btntext}</button>
+            <button type="button" className="button"><a href={this.props.href}>{this.props.btntext}</a></button>
         </div>
     )
 }

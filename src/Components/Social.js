@@ -9,13 +9,13 @@ const Social = () => {
         <div className="social">
             <ul>
                 <li>
-                    <img src={facebook} alt="facebook" />
+                <a href="https://www.facebook.com/AleksandraWolna"><img src={facebook} alt="facebook" /></a>
                 </li>
                 <li>
-                    <img src={twitter} alt="twitter" />
+                <a href="https://twitter.com/woln_a"><img src={twitter} alt="twitter" /></a>
                 </li>
                 <li>
-                    <img src={instagram} alt="instagram" />
+                <a href="https://www.instagram.com/woln_a/"><img src={instagram} alt="instagram" /></a>
                 </li>
             </ul>
         </div>

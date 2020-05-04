@@ -5,6 +5,14 @@
     background: white;
 }
 
+.button a {
+    color: #C70909;
+}
+
+.button a:hover {
+    color: white;
+    text-decoration: none;
+}
 .button {
     border: 1px solid #C70909;
     background: none;
