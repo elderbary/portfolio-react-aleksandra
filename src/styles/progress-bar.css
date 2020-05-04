@@ -33,9 +33,27 @@
 .progress-container {
     position: absolute;
     width: 100%;
-
+    transform: translate(32%, 0%);
 }
 
 .name-container {
         margin-top: 2vh;
     }
+
+@media (max-width: 1600px) {
+    .progress-container {
+        transform: translate(30%, 0%);
+ }
+}
+
+@media (max-width: 1400px) {
+    .progress-container {
+        transform: translate(27%, 0%);
+ }
+}
+
+@media (max-width: 992px) {
+    .progress-container {
+        transform: translate(22%, 0%);
+ }
+}

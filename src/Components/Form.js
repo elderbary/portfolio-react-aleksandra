@@ -14,13 +14,13 @@ export default function Form() {
     validationSchema: Yup.object({
       name: Yup.string()
       .min(3, 'Za krótkie imię')
-      .required(),
+      .required('Wymagane pole'),
       surname: Yup.string()
       .min(3, 'Za krótkie nazwisko')
-      .required(),
+      .required('Wymagane pole'),
       email: Yup.string()
         .email()
-        .required(),
+        .required('Wymagane pole'),
     }),
     onSubmit(values) {
       console.log(values);
