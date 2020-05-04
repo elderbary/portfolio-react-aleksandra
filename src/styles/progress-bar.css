@@ -1,5 +1,5 @@
 .name-container h2 {
-    font-size: 22px;
+    font-size: 20.5px;
     font-family: TeXGyreTermes;
     letter-spacing: normal;
     text-align: center;
@@ -7,8 +7,8 @@
 }
 
 .progress {
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
     border: solid 0.5px #8F9FAE;
     background: #8F9FAE;
@@ -21,8 +21,8 @@
 }
 
 .progress-null {
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
     border: solid 0.5px #8F9FAE;
     border-radius: 100%;
