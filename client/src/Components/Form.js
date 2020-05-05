@@ -2,6 +2,7 @@ import "../styles/form.css";
 import React from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import axios from 'axios';
 
 export default function Form() {
   const formik = useFormik({
@@ -23,7 +24,23 @@ export default function Form() {
         .required('Wymagane pole'),
     }),
     onSubmit(values) {
-      console.log(values);
+      axios({
+         method: "POST",
+         url: "http://localhost:3002/send",
+         data: {
+             firstname: values.name,
+             surname: values.surname,
+             email: values.email,
+             message: values.message
+         }
+      }).then((response)=>{
+         if(response.data.msg === 'success'){
+             alert("Message Sent.");
+         } else {
+             alert("Failed.");
+             console.log(response.data.msg);
+         }
+      });
     }
   });
 
