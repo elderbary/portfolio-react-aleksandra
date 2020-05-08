@@ -79,3 +79,23 @@
 .row-cv {
   height: 60vh;
 }
+
+.col-toggle {
+  background: red;
+}
+
+.div-toggle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 15%;
+  width: 30%;
+  transform: translate(-50%, -50%);
+  background: yellow;
+}
+.div-inner-toggle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

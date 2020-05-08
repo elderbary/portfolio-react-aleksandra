@@ -24,6 +24,25 @@ const breakPoints = [
 ];
 
 class Home extends Component {
+    carouselItems = [
+        {
+          id: 1,
+          title: "test",
+          description: "test",
+          imagePath: "",
+          chars: 1234,
+          views: 4321
+        },
+        {
+            id: 2,
+            title: "test2",
+            description: "test2",
+            imagePath: "",
+            chars: 1234,
+            views: 4321
+        },
+    ]
+
     handleScroll = (event) => {
         if (event.deltaY < 0)
         {
@@ -57,7 +76,13 @@ class Home extends Component {
             <div className="div-main">
                 <Container className="container-std">
                     <Row className="row-main">
-                        <Col className="col-std col-toogle" md={1}>{<Toggle />}</Col>
+                        <Col className="col-std col-toggle" md={1}>
+                            <div className="div-toggle">
+                                <div className="div-inner-toggle">
+                                    {<Toggle itemsCount = {this.carouselItems.length} />}
+                                </div>
+                            </div>
+                        </Col>
                         <Col className="col-std col-inner" md={10}>
                             <Carousel itemsToShow={1} itemsToScroll={1} enableSwipe={true} verticalMode={true} showArrows={false} pagination={false} ref={ref => (this.carousel = ref)}>
                                 <Item>1</Item>
