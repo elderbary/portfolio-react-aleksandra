@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import Navigation from "../Components/Navigation";
-import Toggle from "../Components/Toggle";
+import Pagination from "../Components/Pagination";
 import Btn from "../Components/Btn";
 import Statistics from "../Components/Statistics";
 import Text from "../Components/Text";
@@ -79,7 +79,7 @@ class Home extends Component {
                         <Col className="col-std col-toggle" md={1}>
                             <div className="div-toggle">
                                 <div className="div-inner-toggle">
-                                    {<Toggle itemsCount = {this.carouselItems.length} />}
+                                    {<Pagination itemsCount = {this.carouselItems.length} />}
                                 </div>
                             </div>
                         </Col>

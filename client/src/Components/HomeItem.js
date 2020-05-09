@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import Navigation from "../Components/Navigation";
-import Toggle from "../Components/Toggle";
+import Pagination from "./Pagination";
 import Btn from "../Components/Btn";
 import Statistics from "../Components/Statistics";
 import Text from "../Components/Text";

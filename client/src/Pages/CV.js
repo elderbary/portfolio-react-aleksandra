@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import Navigation from "../Components/Navigation";
-import Toggle from "../Components/Toggle";
+import Pagination from "../Components/Pagination";
 import Btn from "../Components/Btn";
 import Social from "../Components/Social";
 import Timeline from "../Components/Timeline";
@@ -22,7 +22,7 @@ class Test extends Component {
             <div className="div-main">
                 <Container className="container-std">
                     <Row className="row-main">
-                        <Col className="col-std col-toogle" md={1}>{<Toggle />}</Col>
+                        <Col className="col-std col-toogle" md={1}>{<Pagination />}</Col>
                         <Col className="col-std col-center" md={10}>
                             <div className="div-center">
                             <Row className="row-stats">

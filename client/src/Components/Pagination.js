@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
+import '../styles/pagination.css';
 
-class Toggle extends Component {
+class Pagination extends Component {
+    pagination = "";
     paginationPosition = 1;
     handleScroll = (event) => {
         if (event.deltaY < 0)
@@ -30,11 +32,19 @@ class Toggle extends Component {
         window.removeEventListener('wheel', this.handleScroll);
     }
 
+    constructor(props) {
+        super(props);
+        for (var i = 1; i <= props.itemsCount; i++)
+        {
+            this.pagination += '<div class="pagination-square" id="square-'+i+'"></div>';
+        }
+    }
+
     render() {
         return(
-            <span id="pagination">1</span>
+            <div dangerouslySetInnerHTML={{ __html: this.pagination }}></div>
         );
     }
 }
 
-export default Toggle; 
+export default Pagination;
