@@ -8,14 +8,14 @@ class Pagination extends Component {
         if (event.deltaY < 0)
         {
             this.paginationPosition=this.paginationPosition-1;
-            document.getElementById('pagination').innerHTML=this.paginationPosition.toString();
+            // document.getElementById('pagination').innerHTML=this.paginationPosition.toString();
             window.removeEventListener('wheel', this.handleScroll);
             setTimeout(this.enableScroll,800);
         }
         else if (event.deltaY > 0)
         {
             this.paginationPosition=this.paginationPosition+1;
-            document.getElementById('pagination').innerHTML=this.paginationPosition.toString();
+            // document.getElementById('pagination').innerHTML=this.paginationPosition.toString();
             window.removeEventListener('wheel', this.handleScroll);
             setTimeout(this.enableScroll,800);
         }
