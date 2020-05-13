@@ -83,12 +83,31 @@ class Home extends Component {
                                 </div>
                             </div>
                         </Col>
-                        <Col className="col-std col-inner" md={10}>
-                            <Carousel itemsToShow={1} itemsToScroll={1} enableSwipe={true} verticalMode={true} showArrows={false} pagination={false} ref={ref => (this.carousel = ref)}>
-                                <Item> <Text title="Cześć, jestem Ola" text ="Mam 26 lat a środowisko, które mnie otacza, stanowią puste kubki po herbacie oraz sterty (nie)przeczytanych książek, od ciężaru których uginają się już półki. Piszę o książkach i serialach od 6 lat, od momentu w którym stwierdziłam, że to już czas. Czytam kryminały (szwedzkie), reportaże (wydawnictwa Czarnego) oraz obyczajówki (ciekawe). "/> </Item>
-                                <Item>8</Item>
-                                <Item>3</Item>
-                            </Carousel>
+                        <Col className="col-std col-left" md={5}>
+                            <div className="div-left">
+                                <Container className="container-left">
+                                <Carousel itemsToShow={1} itemsToScroll={1} enableSwipe={true} verticalMode={true} showArrows={false} pagination={false} ref={ref => (this.carousel = ref)}>
+    <Item> <Col className="col-std col-text"><Text title="Cześć, jestem Ola" text ="Mam 26 lat a środowisko, które mnie otacza, stanowią puste kubki po herbacie oraz sterty (nie)przeczytanych książek, od ciężaru których uginają się już półki. Piszę o książkach i serialach od 6 lat, od momentu w którym stwierdziłam, że to już czas. Czytam kryminały (szwedzkie), reportaże (wydawnictwa Czarnego) oraz obyczajówki (ciekawe). "/></Col> </Item>
+</Carousel>
+<Row className="row-text">
+                                       
+                                    </Row>
+                                    <Carousel itemsToShow={1} itemsToScroll={1} enableSwipe={true} verticalMode={true} showArrows={false} pagination={false} ref={ref => (this.carousel = ref)}>
+    <Item> <Row className="row-stats">
+                                        <Col className="col-std col-stats"><Statistics score="5 lat" description ="doświadczenia"/></Col>
+                                        <Col className="col-std col-stats"><Statistics score="42" description ="klientów"/></Col>
+                                        <Col className="col-std col-stats"><Statistics score="215" description ="artykułów"/></Col>
+                                        <Col className="col-std col-stats"><Statistics score="53,345" description ="słów"/></Col>
+                                    </Row></Item>
+</Carousel>
+                                    
+                                </Container>
+                            </div>
+                        </Col>
+                        <Col className="col-std col-right" md={5}>
+                            <div className="div-right">
+                            {<Picture />}
+                            </div>
                         </Col>
                         <Col className="col-std col-nav" md={1}>
                             {<Navigation />}
