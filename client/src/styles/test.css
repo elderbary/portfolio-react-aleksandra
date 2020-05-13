@@ -99,3 +99,8 @@
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+.item-1 {
+  height: 100%;
+  width: 100%;
+}
