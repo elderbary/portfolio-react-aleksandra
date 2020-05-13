@@ -85,8 +85,8 @@ class Home extends Component {
                         </Col>
                         <Col className="col-std col-inner" md={10}>
                             <Carousel itemsToShow={1} itemsToScroll={1} enableSwipe={true} verticalMode={true} showArrows={false} pagination={false} ref={ref => (this.carousel = ref)}>
-                                <Item>1</Item>
-                                <Item>2</Item>
+                                <Item className="item-1" ></Item>
+                                <Item>8</Item>
                                 <Item>3</Item>
                             </Carousel>
                         </Col>

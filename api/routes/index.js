@@ -39,7 +39,7 @@ router.post('/send', (req, res, next) => {
   var mail = {
     from: firstname+" "+surname,
     to: 'kontakt@myslizaczytanej.pl',  //Change to email address that you want to receive messages on
-    subject: 'New Message from Contact Form',
+    subject: 'Nowa wiadomość od ',
     text: content
   }
 
