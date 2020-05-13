@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export default styled.div`
-  height: 77vh;
+  height: 70vh;
   width: 100%;
-  background-color: #fff;
+  background-color: red;
   color: #fff;
   margin: 0 15px;
 `;
