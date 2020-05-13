@@ -85,7 +85,7 @@ class Home extends Component {
                         </Col>
                         <Col className="col-std col-inner" md={10}>
                             <Carousel itemsToShow={1} itemsToScroll={1} enableSwipe={true} verticalMode={true} showArrows={false} pagination={false} ref={ref => (this.carousel = ref)}>
-                                <Item className="asda">asdasdd</Item>
+                                <Item> <Text title="Cześć, jestem Ola" text ="Mam 26 lat a środowisko, które mnie otacza, stanowią puste kubki po herbacie oraz sterty (nie)przeczytanych książek, od ciężaru których uginają się już półki. Piszę o książkach i serialach od 6 lat, od momentu w którym stwierdziłam, że to już czas. Czytam kryminały (szwedzkie), reportaże (wydawnictwa Czarnego) oraz obyczajówki (ciekawe). "/> </Item>
                                 <Item>8</Item>
                                 <Item>3</Item>
                             </Carousel>
