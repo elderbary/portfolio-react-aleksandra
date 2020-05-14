@@ -27,10 +27,10 @@ class Test extends Component {
                                         <Col className="col-std col-text" md={12}><Text title="Cześć, jestem Ola" text ="Mam 26 lat a środowisko, które mnie otacza, stanowią puste kubki po herbacie oraz sterty (nie)przeczytanych książek, od ciężaru których uginają się już półki. Piszę o książkach i serialach od 6 lat, od momentu w którym stwierdziłam, że to już czas. Czytam kryminały (szwedzkie), reportaże (wydawnictwa Czarnego) oraz obyczajówki (ciekawe). "/></Col>
                                     </Row>
                                     <Row className="row-stats">
-                                        <Col className="col-std col-stats"><Statistics score="5 lat" description ="doświadczenia"/></Col>
-                                        <Col className="col-std col-stats"><Statistics score="42" description ="klientów"/></Col>
-                                        <Col className="col-std col-stats"><Statistics score="215" description ="artykułów"/></Col>
-                                        <Col className="col-std col-stats"><Statistics score="53,345" description ="słów"/></Col>
+                                        <Col className="col-std col-stats"><Statistics score="6 lat" description ="doświadczenia"/></Col>
+                                        <Col className="col-std col-stats"><Statistics score="10" description ="klientów"/></Col>
+                                        <Col className="col-std col-stats"><Statistics score="450" description ="artykułów"/></Col>
+                                        <Col className="col-std col-stats"><Statistics score="400,000" description ="znaków"/></Col>
                                     </Row>
                                 </Container>
                             </div>
