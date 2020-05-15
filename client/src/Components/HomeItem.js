@@ -12,7 +12,6 @@ import Text from "../Components/Text";
 import Picture from "../Components/Picture";
 import Social from "../Components/Social";
 
-import pc from '../images/pc.svg';
 
 class HomeItem extends Component {
     render() {
@@ -38,7 +37,7 @@ class HomeItem extends Component {
                             </Col>
                             <Col className="col-std col-right" md={6}>
                                 <div className="div-right">
-                                    <Picture imgportfolio={pc} alt="pc" />
+                                    <Picture imgportfolio="" alt="pc" />
                                 </div>
                             </Col>
                         </Row>

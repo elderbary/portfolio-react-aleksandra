@@ -12,17 +12,16 @@ import Text from "../Components/Text";
 import Picture from "../Components/Picture";
 import Social from "../Components/Social";
 
-import pc from '../images/pc.svg';
 import HomeItem from "../Components/HomeItem";
 import Item from '../Components/Item';
 import Carousel from "react-elastic-carousel";
 
-import sucession from '../images/recenzja-sucession.svg'
-import polacy from '../images/polacy-nie-czytaja.svg'
-import spoiler from '../images/czlowiek-spoiler.svg'
-import shitshow from '../images/shitshow.svg'
-import szczygiel from '../images/szczygiel.svg'
-import morningshow from '../images/the-morning-show.svg'
+import sucession from '../images/recenzja-sucession.png'
+import polacy from '../images/polacy-nie-czytaja.png'
+import spoiler from '../images/czlowiek-spoiler.png'
+import shitshow from '../images/shitshow.png'
+import szczygiel from '../images/szczygiel.png'
+import morningshow from '../images/the-morning-show.png'
 
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
