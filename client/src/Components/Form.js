@@ -14,32 +14,32 @@ export default function Form() {
     },
     validationSchema: Yup.object({
       name: Yup.string()
-      .min(3, 'Za krótkie imię')
-      .required('Wymagane pole'),
+        .min(3, 'Za krótkie imię')
+        .required('Wymagane pole'),
       surname: Yup.string()
-      .min(3, 'Za krótkie nazwisko')
-      .required('Wymagane pole'),
+        .min(3, 'Za krótkie nazwisko')
+        .required('Wymagane pole'),
       email: Yup.string()
         .email()
         .required('Wymagane pole'),
     }),
     onSubmit(values) {
       axios({
-         method: "POST",
-         url: "http://localhost:3002/send",
-         data: {
-             firstname: values.name,
-             surname: values.surname,
-             email: values.email,
-             message: values.message
-         }
-      }).then((response)=>{
-         if(response.data.msg === 'success'){
-             alert("Message Sent.");
-         } else {
-             alert("Failed.");
-             console.log(response.data.msg);
-         }
+        method: "POST",
+        url: "http://localhost:3002/send",
+        data: {
+          firstname: values.name,
+          surname: values.surname,
+          email: values.email,
+          message: values.message
+        }
+      }).then((response) => {
+        if (response.data.msg === 'success') {
+          alert("Message Sent.");
+        } else {
+          alert("Failed.");
+          console.log(response.data.msg);
+        }
       });
     }
   });

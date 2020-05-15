@@ -24,20 +24,20 @@ class Test extends Component {
                             <div className="div-left">
                                 <Container className="container-left">
                                     <Row className="row-text">
-                                        <Col className="col-std col-text" md={12}><Text title="Cześć, jestem Ola" text ="Mam 26 lat a środowisko, które mnie otacza, stanowią puste kubki po herbacie oraz sterty (nie)przeczytanych książek, od ciężaru których uginają się już półki. Piszę o książkach i serialach od 6 lat, od momentu w którym stwierdziłam, że to już czas. Czytam kryminały (szwedzkie), reportaże (wydawnictwa Czarnego) oraz obyczajówki (ciekawe). "/></Col>
+                                        <Col className="col-std col-text" md={12}><Text title="Cześć, jestem Ola" text="Mam 26 lat a środowisko, które mnie otacza, stanowią puste kubki po herbacie oraz sterty (nie)przeczytanych książek, od ciężaru których uginają się już półki. Piszę o książkach i serialach od 6 lat, od momentu w którym stwierdziłam, że to już czas. Czytam kryminały (szwedzkie), reportaże (wydawnictwa Czarnego) oraz obyczajówki (ciekawe). " /></Col>
                                     </Row>
                                     <Row className="row-stats">
-                                        <Col className="col-std col-stats"><Statistics score="6 lat" description ="doświadczenia"/></Col>
-                                        <Col className="col-std col-stats"><Statistics score="10" description ="klientów"/></Col>
-                                        <Col className="col-std col-stats"><Statistics score="450" description ="artykułów"/></Col>
-                                        <Col className="col-std col-stats"><Statistics score="400,000" description ="znaków"/></Col>
+                                        <Col className="col-std col-stats"><Statistics score="6 lat" description="doświadczenia" /></Col>
+                                        <Col className="col-std col-stats"><Statistics score="10" description="klientów" /></Col>
+                                        <Col className="col-std col-stats"><Statistics score="450" description="artykułów" /></Col>
+                                        <Col className="col-std col-stats"><Statistics score="400,000" description="znaków" /></Col>
                                     </Row>
                                 </Container>
                             </div>
                         </Col>
                         <Col className="col-std col-right" md={5}>
                             <div className="div-right">
-                            {<CVPicture />}
+                                {<CVPicture />}
                             </div>
                         </Col>
                         <Col className="col-std col-nav" md={1}>
@@ -46,7 +46,7 @@ class Test extends Component {
                         </Col>
                     </Row>
                     <Row className="row-bottom">
-                        <Col className="col-std col-btn" md={{ span: 4, offset: 4}}><Btn href="./kontakt" btntext="Napisz do mnie" /></Col>
+                        <Col className="col-std col-btn" md={{ span: 4, offset: 4 }}><Btn href="./kontakt" btntext="Napisz do mnie" /></Col>
                     </Row>
                 </Container>
             </div>

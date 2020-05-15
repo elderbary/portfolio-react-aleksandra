@@ -6,7 +6,7 @@ import aleksandra from '../images/aleksandra-wolna.jpg'
 const CVPicture = () => {
     return (
         <div className="cvpicture-container">
-        <img src={aleksandra} alt="aleksandra-wolna" />
+            <img src={aleksandra} alt="aleksandra-wolna" />
         </div>
     )
 }

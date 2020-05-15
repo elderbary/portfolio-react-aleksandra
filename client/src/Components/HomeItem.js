@@ -25,13 +25,13 @@ class HomeItem extends Component {
                                 <div className="div-left">
                                     <Container className="container-left">
                                         <Row className="row-text">
-                                            <Col className="col-std col-text" md={12}><Text title="Tu będzie tytuł" text ="Mam 26 lat a środowisko, które mnie otacza, stanowią puste kubki po herbacie oraz sterty (nie)przeczytanych książek, od ciężaru których uginają się już półki. Piszę o książkach i serialach od 6 lat, od momentu w którym stwierdziłam, że to już czas. Czytam kryminały (szwedzkie), reportaże (wydawnictwa Czarnego) oraz obyczajówki (ciekawe). "/></Col>
+                                            <Col className="col-std col-text" md={12}><Text title="Tu będzie tytuł" text="Mam 26 lat a środowisko, które mnie otacza, stanowią puste kubki po herbacie oraz sterty (nie)przeczytanych książek, od ciężaru których uginają się już półki. Piszę o książkach i serialach od 6 lat, od momentu w którym stwierdziłam, że to już czas. Czytam kryminały (szwedzkie), reportaże (wydawnictwa Czarnego) oraz obyczajówki (ciekawe). " /></Col>
                                         </Row>
                                         <Row className="row-stats">
-                                            <Col className="col-std col-stats"><Statistics score="3,456" description ="słów"/></Col>
-                                            <Col className="col-std col-stats"><Statistics score="12,123" description ="wyświetleń"/></Col>
-                                            <Col className="col-std col-stats"><Statistics score="" description =""/></Col>
-                                            <Col className="col-std col-stats"><Statistics score="" description =""/></Col>
+                                            <Col className="col-std col-stats"><Statistics score="3,456" description="słów" /></Col>
+                                            <Col className="col-std col-stats"><Statistics score="12,123" description="wyświetleń" /></Col>
+                                            <Col className="col-std col-stats"><Statistics score="" description="" /></Col>
+                                            <Col className="col-std col-stats"><Statistics score="" description="" /></Col>
                                         </Row>
                                     </Container>
                                 </div>

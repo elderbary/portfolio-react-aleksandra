@@ -1,23 +1,21 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import '../styles/pagination.css';
 
 class Pagination extends Component {
     pagination = "";
     paginationPosition = 1;
     handleScroll = (event) => {
-        if (event.deltaY < 0)
-        {
-            this.paginationPosition=this.paginationPosition-1;
+        if (event.deltaY < 0) {
+            this.paginationPosition = this.paginationPosition - 1;
             // document.getElementById('pagination').innerHTML=this.paginationPosition.toString();
             window.removeEventListener('wheel', this.handleScroll);
-            setTimeout(this.enableScroll,800);
+            setTimeout(this.enableScroll, 800);
         }
-        else if (event.deltaY > 0)
-        {
-            this.paginationPosition=this.paginationPosition+1;
+        else if (event.deltaY > 0) {
+            this.paginationPosition = this.paginationPosition + 1;
             // document.getElementById('pagination').innerHTML=this.paginationPosition.toString();
             window.removeEventListener('wheel', this.handleScroll);
-            setTimeout(this.enableScroll,800);
+            setTimeout(this.enableScroll, 800);
         }
     }
     enableScroll = () => {
@@ -34,14 +32,13 @@ class Pagination extends Component {
 
     constructor(props) {
         super(props);
-        for (var i = 1; i <= props.itemsCount; i++)
-        {
-            this.pagination += '<div class="pagination-square" id="square-'+i+'"></div>';
+        for (var i = 1; i <= props.itemsCount; i++) {
+            this.pagination += '<div class="pagination-square" id="square-' + i + '"></div>';
         }
     }
 
     render() {
-        return(
+        return (
             <div dangerouslySetInnerHTML={{ __html: this.pagination }}></div>
         );
     }
