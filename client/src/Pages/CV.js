@@ -19,12 +19,10 @@ import Norway from "../Components/Norway";
 class Test extends Component {
 
     handleScroll = (event) => {
-        if (event.deltaY < 0)
-        {
+        if (event.deltaY < 0) {
             window.location.href = '/o-mnie';
         }
-        else if (event.deltaY > 0)
-        {
+        else if (event.deltaY > 0) {
             window.location.href = '/kontakt';
         }
     }
@@ -34,7 +32,7 @@ class Test extends Component {
     }
 
     componentDidMount() {
-        setTimeout(this.enableScroll,800);
+        setTimeout(this.enableScroll, 800);
     }
 
     componentWillUnmount() {
@@ -49,15 +47,15 @@ class Test extends Component {
                         <Col className="col-std col-toogle" md={1}>{<Pagination />}</Col>
                         <Col className="col-std col-center" md={10}>
                             <div className="div-center">
-                            <Row className="row-stats">
-                                        <Col className="col-std col-stats">{<English />}</Col>
-                                        <Col className="col-std col-stats">{<Office />}</Col>
-                                        <Col className="col-std col-stats">{<Adobe />}</Col>
-                                        <Col className="col-std col-stats">{<Norway />}</Col>
-                                    </Row>
-                                    <Row className="row-cv">
-                                      {<Timeline />}
-                                    </Row>
+                                <Row className="row-stats">
+                                    <Col className="col-std col-stats">{<English />}</Col>
+                                    <Col className="col-std col-stats">{<Office />}</Col>
+                                    <Col className="col-std col-stats">{<Adobe />}</Col>
+                                    <Col className="col-std col-stats">{<Norway />}</Col>
+                                </Row>
+                                <Row className="row-cv">
+                                    {<Timeline />}
+                                </Row>
                             </div>
                         </Col>
                         <Col className="col-std col-nav" md={1}>
@@ -66,7 +64,10 @@ class Test extends Component {
                         </Col>
                     </Row>
                     <Row className="row-bottom">
-                        <Col className="col-std col-btn" md={{ span: 4, offset: 4}}><Btn btntext="Pobierz CV" /></Col>
+                        <Col className="col-std col-btn" md={{ span: 4, offset: 4 }}><Btn btntext="Pobierz CV" /></Col>
+                        <Col className="col-std col-footer" md={{ span: 3, offset: 9 }}>
+                            <p>Projekt i realizacja: <a href="https://dosoft.pl">dosoft.pl</a>  Icon made by Freepik from <a href="https://www.flaticon.com/authors/freepik">flaticon</a></p>
+                        </Col>
                     </Row>
                 </Container>
             </div>
