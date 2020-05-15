@@ -112,4 +112,10 @@
 
 .item-picture {
   height: 60vh;
+  width: 100%;
+}
+
+.item-picture img {
+  width: 110%;
+  transform: translate(-5%, 50%);
 }
