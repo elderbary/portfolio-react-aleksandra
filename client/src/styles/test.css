@@ -119,3 +119,24 @@
   width: 110%;
   transform: translate(-5%, 50%);
 }
+
+.col-footer {
+  margin-top: -2.5%;
+  padding-top: 1%;
+}
+
+.col-footer p {
+  font-family: 'Poppins', sans-serif;
+  color: #AFAFAF;
+  font-size: 11px;
+  margin-top: -4%;
+}
+
+a {
+  color: #AFAFAF;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
