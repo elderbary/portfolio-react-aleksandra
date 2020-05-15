@@ -141,9 +141,13 @@ class Home extends Component {
                             </div>
                         </Col>
                         <Col className="col-std col-right" md={5}>
+                        <Carousel itemsToShow={1} itemsToScroll={1} enableSwipe={true} verticalMode={true} showArrows={false} pagination={false} ref={ref => (this.carousel = ref)}>
+                        <Item className="item-picture">
                             <div className="div-right">
-                            {<Picture />}
+                                <Picture src="" alt=""></Picture>
                             </div>
+                            </Item>
+                            </Carousel>
                         </Col>
                         <Col className="col-std col-nav" md={1}>
                             {<Navigation />}
