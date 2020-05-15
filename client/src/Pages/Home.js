@@ -17,6 +17,13 @@ import HomeItem from "../Components/HomeItem";
 import Item from '../Components/Item';
 import Carousel from "react-elastic-carousel";
 
+import sucession from '../images/recenzja-sucession.svg'
+import polacy from '../images/polacy-nie-czytaja.svg'
+import spoiler from '../images/czlowiek-spoiler.svg'
+import shitshow from '../images/shitshow.svg'
+import szczygiel from '../images/szczygiel.svg'
+import morningshow from '../images/the-morning-show.svg'
+
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
@@ -141,13 +148,28 @@ class Home extends Component {
                             </div>
                         </Col>
                         <Col className="col-std col-right" md={5}>
+                        <div className="div-right">
                         <Carousel itemsToShow={1} itemsToScroll={1} enableSwipe={true} verticalMode={true} showArrows={false} pagination={false} ref={ref => (this.carousel = ref)}>
                         <Item className="item-picture">
-                            <div className="div-right">
-                                <Picture src="" alt=""></Picture>
-                            </div>
+                            <Picture imgportfolio={sucession} alt="pc" />
+                            </Item>
+                            <Item className="item-picture">
+                            <Picture imgportfolio={polacy} alt="pc" />
+                            </Item>
+                            <Item className="item-picture">
+                            <Picture imgportfolio={spoiler} alt="pc" />
+                            </Item>
+                            <Item className="item-picture">
+                            <Picture imgportfolio={shitshow} alt="pc" />
+                            </Item>
+                            <Item className="item-picture">
+                            <Picture imgportfolio={szczygiel} alt="pc" />
+                            </Item>
+                            <Item className="item-picture">
+                            <Picture imgportfolio={morningshow} alt="pc" />
                             </Item>
                             </Carousel>
+                            </div>
                         </Col>
                         <Col className="col-std col-nav" md={1}>
                             {<Navigation />}

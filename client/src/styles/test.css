@@ -108,5 +108,8 @@
 
 .item-stats {
   width: 100%;
+}
 
+.item-picture {
+  height: 60vh;
 }
