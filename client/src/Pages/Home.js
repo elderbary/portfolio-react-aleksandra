@@ -30,24 +30,44 @@ const breakPoints = [
 ];
 
 class Home extends Component {
+    btnURL = [
+        'https://serialomaniak.pl/recenzja/succession-sukcesja-serial-hbo-recenzja',
+        'https://igimag.pl/2019/04/polacy-nie-czytaja/',
+        'https://igimag.pl/2019/06/czlowiek-czlowiekowi-spoilerem-zlo-plynace-z-serwisow-streamingowych/',
+        'http://myslizaczytanej.pl/shitshow-ameryka-sie-sypie-a-ogladalnosc-szybuje-charlie-leduff/',
+        'http://myslizaczytanej.pl/szczygiel-donna-tartt/',
+        'https://serialomaniak.pl/recenzja/themorningshow-finalsezonu-pierwszysezon',
+    ];
+    currentURLiterator = 0;
+
     handleScroll = (event) => {
         if (event.deltaY < 0)
         {
-            console.log('scrolling up');
-            this.carouselText.slidePrev();
-            this.carouselStats.slidePrev();
-            this.carouselPic.slidePrev();
-            window.removeEventListener('wheel', this.handleScroll);
-            setTimeout(this.enableScroll,800);
+            if (this.currentURLiterator > 0) {
+                this.carouselText.slidePrev();
+                this.carouselStats.slidePrev();
+                this.carouselPic.slidePrev();
+                window.removeEventListener('wheel', this.handleScroll);
+                setTimeout(this.enableScroll,800);
+
+                --this.currentURLiterator;
+                this.seeMore.unsetURL(this.seeMore.currentURL);
+                this.seeMore.setURL(this.btnURL[this.currentURLiterator]);
+            }
         }
         else if (event.deltaY > 0)
         {
-            console.log('scrolling down');
-            this.carouselText.slideNext();
-            this.carouselStats.slideNext();
-            this.carouselPic.slideNext();
-            window.removeEventListener('wheel', this.handleScroll);
-            setTimeout(this.enableScroll,800);
+            if (this.currentURLiterator < 5) {
+                this.carouselText.slideNext();
+                this.carouselStats.slideNext();
+                this.carouselPic.slideNext();
+                window.removeEventListener('wheel', this.handleScroll);
+                setTimeout(this.enableScroll,800);
+
+                ++this.currentURLiterator;
+                this.seeMore.unsetURL(this.seeMore.currentURL);
+                this.seeMore.setURL(this.btnURL[this.currentURLiterator]);
+            }
         }
     }
     enableScroll = () => {
@@ -158,7 +178,7 @@ class Home extends Component {
                         </Col>
                     </Row>
                     <Row className="row-bottom">
-                        <Col className="col-std col-btn" md={{ span: 4, offset: 4 }}><Btn btntext="Zobacz więcej" /></Col>
+                        <Col className="col-std col-btn" md={{ span: 4, offset: 4 }}><Btn ref={ref => (this.seeMore = ref)} btntext="Zobacz więcej" href="https://serialomaniak.pl/recenzja/succession-sukcesja-serial-hbo-recenzja" /></Col>
                     </Row>
                 </Container>
             </div>
