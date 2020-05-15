@@ -24,13 +24,13 @@
         }
    }
    
-   @media (max-width: 1400px) {
+@media (max-width: 1400px) {
     .social {
         transform: translate(-50%, -100%);
     }
    }
 
-   @media (max-width: 992px) {
+@media (max-width: 992px) {
     .social {
         transform: translate(-120%, -100%);
     }
