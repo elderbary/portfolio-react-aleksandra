@@ -16,12 +16,10 @@ import CVPicture from "../Components/CVPicture";
 class Test extends Component {
 
     handleScroll = (event) => {
-        if (event.deltaY < 0)
-        {
+        if (event.deltaY < 0) {
             window.location.href = '/';
         }
-        else if (event.deltaY > 0)
-        {
+        else if (event.deltaY > 0) {
             window.location.href = '/cv';
         }
     }
@@ -31,7 +29,7 @@ class Test extends Component {
     }
 
     componentDidMount() {
-        setTimeout(this.enableScroll,800);
+        setTimeout(this.enableScroll, 800);
     }
 
     componentWillUnmount() {
@@ -73,7 +71,6 @@ class Test extends Component {
                         <Col className="col-std col-btn" md={{ span: 4, offset: 4 }}><Btn href="./kontakt" btntext="Napisz do mnie" /></Col>
                         <Col className="col-std col-footer" md={{ span: 3, offset: 9 }}>
                             <p>Projekt i realizacja: <a href="https://dosoft.pl">dosoft.pl</a>  Icon made by Freepik from <a href="https://www.flaticon.com/authors/freepik">flaticon</a></p>
-
                         </Col>
                     </Row>
                 </Container>
