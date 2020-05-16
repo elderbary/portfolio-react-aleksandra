@@ -36,7 +36,7 @@ class Test extends Component {
             <div className="div-main">
                 <Container className="container-std">
                     <Row className="row-main">
-                        <Col className="col-std col-toogle" md={1}>{<Pagination />}</Col>
+                        <Col className="col-std col-toogle" md={1}></Col>
                         <Col className="col-std col-left" md={5}>
                             <div className="div-left">
                                 <Container className="container-left">
