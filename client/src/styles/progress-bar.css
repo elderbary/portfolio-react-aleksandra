@@ -56,4 +56,15 @@
     .progress-container {
         transform: translate(22%, 0%);
  }
+ .progress-null {
+    width: 11px;
+    height: 11px;
+ }
+ .progress {
+    width: 11px;
+    height: 11px;
+ }
+ .name-container h2 {
+     font-size: 17px;
+ }
 }

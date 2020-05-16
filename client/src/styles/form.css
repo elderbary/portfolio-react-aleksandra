@@ -73,4 +73,20 @@ form {
      font-size: 14px;
    }
   }
+
+  @media (max-width: 992px) {
+    form input {
+      font-size: 12px;
+    }
+    form button[type="submit"] {
+      font-size: 12px;
+      padding: 10px;
+     }
+     form textarea {
+      font-size: 12px;
+    }
+    form {
+      width: 240px;
+    }
+  }
    
