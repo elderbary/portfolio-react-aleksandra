@@ -193,10 +193,10 @@ visibility: hidden;
    visibility: hidden;
  }
  .div-left {
-   margin-top: -19%;
+   margin-top: -12%;
  }
  .row-bottom {
-   margin-top: -7%;
+   margin-top: 0%;
  }
 
  .div-main {
@@ -206,4 +206,16 @@ visibility: hidden;
    left: 2%;
    transform: translate(0%, -15%);
  }
+}
+
+@media (max-width: 575.98px) {
+  .div-left {
+    margin-top: -23%;
+  }
+  .item-stats {
+    margin-top: 10%;
+  }
+  .row-bottom {
+    margin-top: 13%;
+  }
 }
