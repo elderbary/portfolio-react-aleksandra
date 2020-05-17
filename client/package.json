@@ -8,6 +8,7 @@
     "formik": "^2.1.4",
     "react": "^16.8.1",
     "react-bootstrap": "^1.0.1",
+    "react-burger-menu": "^2.6.13",
     "react-dom": "^16.8.1",
     "react-elastic-carousel": "^0.4.1",
     "react-router-dom": "^4.3.1",
