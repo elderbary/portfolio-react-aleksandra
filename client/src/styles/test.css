@@ -83,6 +83,9 @@
 .col-toggle {
 }
 
+.div-navmobile {
+  visibility: hidden;
+}
 .div-toggle {
   position: absolute;
   left: 50%;
@@ -201,10 +204,13 @@ visibility: hidden;
 
  .div-main {
    height: 100vh;
-   width: 90vw;
+   width: 98vw;
    top: 0%;
-   left: 2%;
+   left: 0%;
    transform: translate(0%, -15%);
+ }
+ .div-navmobile {
+   visibility: visible;
  }
 }
 
@@ -218,4 +224,8 @@ visibility: hidden;
   .row-bottom {
     margin-top: 13%;
   }
+  .div-navmobile {
+    visibility: visible;
+  }
 }
+
