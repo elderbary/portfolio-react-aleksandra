@@ -12,7 +12,6 @@ import Text from "../Components/Text";
 import Picture from "../Components/Picture";
 import Social from "../Components/Social";
 
-import HomeItem from "../Components/HomeItem";
 import Item from '../Components/Item';
 import Carousel from "react-elastic-carousel";
 
