@@ -32,6 +32,15 @@
 
 @media (max-width: 992px) {
     .social {
-        transform: translate(-120%, -100%);
+        transform: translate(-80%, -70%);
+    }
+    .social img {
+        height: 14px;
     }
    }
+
+ @media (max-width: 768px) {
+    .social {
+        visibility: hidden;
+    }
+ }
