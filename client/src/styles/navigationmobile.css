@@ -40,6 +40,10 @@
     padding: 0.8em;
   }
 
+  .bm-menu-wrap {
+    position: relative;
+    height: 10vh;
+  }
   
   .bm-overlay {
     background: #fff;
