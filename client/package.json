@@ -1,6 +1,10 @@
 {
+<<<<<<< HEAD:package.json
   "homepage": "https://elderbary.github.io/portfolio-react-aleksandra/",
   "name": "aleksandra-portfolio",
+=======
+  "name": "Aleksandra",
+>>>>>>> developer:client/package.json
   "version": "0.1.0",
   "private": true,
   "dependencies": {

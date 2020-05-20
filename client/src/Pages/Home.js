@@ -11,6 +11,7 @@ import Statistics from "../Components/Statistics";
 import Text from "../Components/Text";
 import Picture from "../Components/Picture";
 import Social from "../Components/Social";
+import NavMobile from "../Components/NavigationMobile";
 
 import Item from '../Components/Item';
 import Carousel from "react-elastic-carousel";
@@ -174,6 +175,7 @@ class Home extends Component {
                         <Col className="col-std col-nav" md={1}>
                             {<Navigation />}
                             {<Social />}
+                            {/* {<NavMobile />} */}
                         </Col>
                     </Row>
                     <Row className="row-bottom">
