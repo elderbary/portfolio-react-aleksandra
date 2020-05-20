@@ -175,7 +175,7 @@ class Home extends Component {
                         <Col className="col-std col-nav" md={1}>
                             {<Navigation />}
                             {<Social />}
-                            <div className="div-navmobile">{<NavMobile />}</div>
+                            {<NavMobile />}
                         </Col>
                     </Row>
                     <Row className="row-bottom">
