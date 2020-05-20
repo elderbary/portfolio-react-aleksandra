@@ -66,7 +66,7 @@ class Test extends Component {
                     <Row className="row-bottom">
                         <Col className="col-std col-btn" md={{ span: 4, offset: 4 }}><Btn btntext="Pobierz CV" /></Col>
                         <Col className="col-std col-footer" md={{ span: 3, offset: 9 }}>
-                            <p>Projekt i realizacja: <a href="https://dosoft.pl">dosoft.pl</a>  Icon made by Freepik from <a href="https://www.flaticon.com/authors/freepik">flaticon</a></p>
+                            <p>Projekta i realizacja: <a href="https://dosoft.pl">dosoft.pl</a>  Icon made by Freepik from <a href="https://www.flaticon.com/authors/freepik">flaticon</a></p>
                         </Col>
                     </Row>
                 </Container>
